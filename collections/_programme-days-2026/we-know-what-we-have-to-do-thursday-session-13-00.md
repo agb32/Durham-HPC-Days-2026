@@ -14,7 +14,7 @@ title: "We know what to do, so why aren’t we doing it? Closing the EDI Impleme
 
 
 
-#FACILITATOR
+#LEADS
 # Comma-separated list of the leads of the session
 lead: "Eleanor Broadway, Marion Weinzierl, Tom Meltzer, Jack Franklin"
 # Leads photos (must match order of names above). 
@@ -28,14 +28,14 @@ lead_links:
   - ""
 
 
-#SPEAKERS
-# Comma-separated list of the speakers of the session
+#CONTRIBUTORS
+# Comma-separated list of the contributors of the session
 contributor: "Luigi del Debbio, Bryan Jones"
-# Speakers photos (must match order of names above). 
+# Contributors' photos (must match order of names above). 
 contributor_photos:
  - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
  - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
-# Speakers profile links (must match order of names above)
+# Contributors' profile links (must match order of names above)
 contributor_links:
   - ""
 
