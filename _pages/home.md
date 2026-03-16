@@ -175,9 +175,9 @@ t {
 
 .dual-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
-  max-width: 1100px;
+  max-width: 1300px;
   margin:0.5rem auto;
   padding: 0 2rem;
 }
@@ -344,18 +344,11 @@ t {
     <div class="deadline-box">
       Register now to attend Durham HPC Days 2026
     </div>
-    <br><br>
+    <br>
     <a href="https://pay.durham.ac.uk/event-durham/durham-hpc-days-2026" class="btn btn-purple">Register</a>
   </section>
 
-  <section class="call-for-submissions">
-    <h2>📢 Call for Talks</h2>
-    <div class="deadline-box">
-      🗓️ Submission Deadline: <strong>March 13th</strong>
-    </div>
-    <br><br>
-    <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/call-for-talks/" class="btn btn-purple">Submit Your Talk</a>
-  </section>
+
   
   
 </div>
