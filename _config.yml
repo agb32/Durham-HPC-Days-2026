@@ -132,6 +132,9 @@ collections:
   tutorials:
     output: true
     permalink: /programme-tutorials/:name/
+  workshops:
+    output: true
+    permalink: /programme-workshops/:name/
 
 category_archive:
   type: liquid
