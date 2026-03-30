@@ -1,10 +1,12 @@
 main:
   - title: "Register"
     url: /register/
-  - title: "Tutorials"
-    url: /tutorials/
   - title: "Programme"
     url: /programme-hpcdays-2026/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Poster Session"
+    url: /posters/
   - title: "Sponsors"
     url: /sponsors/
   - title: "Past Durham HPC Days"

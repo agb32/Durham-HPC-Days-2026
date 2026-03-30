@@ -1,206 +1,8 @@
 ---
 layout: splash
-permalink: /
+permalink: /home-draft/
 hidden: true
 ---
-
-
-<section class="ws-hero ws-hero-banner full-bleed">
-</section>
-
-
-
-
-
-<section class="register-cta full-bleed fade-in">
-  <div class="register-content">
-    
-    <div class="register-content">
-      <h2>15th to 19th of June 2026</h2>
- 
-  <p>
-    The <strong>Durham HPC Days</strong> bring together researchers, developers, and practitioners
-    to explore the frontiers of high-performance computing, data analysis, and scientific innovation.
-  </p>
-      <div class="register-meta">
-        📅 15–19 June 2026 &nbsp;&nbsp;•&nbsp;&nbsp; ⏳ Registration closes 20 April
-      </div>
-
-      <a href="https://pay.durham.ac.uk/event-durham/durham-hpc-days-2026" 
-         class="btn btn-primary">
-         Register now
-      </a>
-    </div>
-    
-</div>
-
-  </section>
-  
-
-
-
-
-
-
-
-
-<section id="programme" class="fade-in">
-  <h2>🗓️ Explore the Programme</h2>
-  <t style="max-width: 700px; margin: 0 auto 2rem;">
-    Discover the full schedule of keynotes, technical sessions, and social events for the upcoming conference.
-    Check the programme to plan your participation and make the most of your experience at Durham HPC Days.<br>
-  </t><br>
-  <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-hpcdays-2026/" class="btn btn-purple">Full programme coming up soon</a>
-</section>
-
-
-<section class="ws-hero ws-hero-sessions full-bleed">
-  <div class="ws-tutorials ws-hero__overlay"></div>
-  <div class="ws-tutorials-grid ws-hero__grid"></div>
-  <div class="ws-hero__content">
-    <h1>Tutorials</h1>
-    <a href="/tutorials/" class="ws-hero-cta">
-  Explore tutorials <span>→</span>
-</a>
-  </div>
-</section>
-
-
-<section class="ws-hero ws-hero-sessions full-bleed">
-  <div class="ws-keynotes ws-hero__overlay"></div>
-  <div class="ws-keynotes-grid ws-hero__grid"></div>
-  <div class="ws-hero__content">
-    <h1>Keynotes</h1>
-    <a href="/" class="ws-hero-cta">
-  Coming up soon <span>→</span>
-</a>
-  </div>
-</section>
-<section class="ws-hero ws-hero-sessions full-bleed">
-  <div class="ws-talks ws-hero__overlay"></div>
-  <div class="ws-talks-grid ws-hero__grid"></div>
-  <div class="ws-hero__content">
-    <h1>Talks</h1> <a href="" class="ws-hero-cta">
-  Coming up soon <span>→</span>
-</a>
-  </div>
-</section>
-<section class="ws-hero ws-hero-sessions full-bleed">
-  <div class="ws-workshops ws-hero__overlay"></div>
-  <div class="ws-workshops-grid ws-hero__grid"></div>
-  <div class="ws-hero__content">
-    <h1>Workshops</h1>
-    <a href="/" class="ws-hero-cta">
-  Coming up soon <span>→</span>
-</a>
-  </div>
-</section>
-
-
-
-
-
-
-<div class="header-image"></div>
-
-<section id="gallery" class="fade-in">
-  <h2>📸 Gallery</h2>
-  <div class="image-grid">
-    <img src="assets/images/Sessions.jpg" alt="Sessions">
-    <img src="assets/images/food-truck.jpg" alt="Food truck">
-    <img src="assets/images/social.png" alt="social">
-  </div>
-</section>
-
-
-<div class="herovid">
-  <div class="hero-inner">
-    <div class="hero-video">
-      <div id="yt-player"></div>
-    </div>
-    <div class="hero-content">
-    
-      <h1>Durham HPC Days 2025 Video Recap</h1>
-     
-      <a href="https://durham.readthedocs.io/en/latest/hpcdays2025/index.html" class="btn btn-purple" target="_blank" rel="noopener">Visit last year's website</a>
-
-      <a href="https://youtu.be/wPjtwACmaUg" class="btn btn-purple" target="_blank" rel="noopener">HPC Days 2025 Video</a>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-<section class="register-cta  register-cta-purple full-bleed fade-in">
-  <div class="register-content">
-    
-    <div class="register-content">
-      <h2>Our Sponsors</h2>
- 
-  <p>
-    If you are sponsoring and supporting HPC Days 2026, thank you very much! We would not be able to run the event without you!
-  </p>
-      
-      
-      
-        <div class="sponsors-grid">
-
-      <!-- Sponsor -->
-      <a href="https://www.ddn.com" target="_blank" rel="noopener noreferrer">
-      <div class="sponsor-logo">
-        <img src="https://www.ddn.com/wp-content/uploads/2024/09/ddn-logo-dark-horizontal-rgb.jpg" alt="ddn">
-      </div>
-      </a>
-      
-      
-      
-<a href="https://ocf.co.uk/" target="_blank" rel="noopener noreferrer">
-      <div class="sponsor-logo">
-        <img src="https://ocf.co.uk/images/logoblue.png" alt="OCF">
-      </div>
-       </a>
-      
-      
-      
-      
-<a href="https://eu.fsastech.com/eu/" target="_blank" rel="noopener noreferrer">
-      <div class="sponsor-logo">
-        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFz2Hw6LVRJlg/company-logo_200_200/B4DZWPBwyvHYAI-/0/1741861359139?e=2147483647&v=beta&t=sLukj4LFeyoCCButXJ0ICGVDUN3dEz_FDbeicBq3pNM" alt="Fsas Technologies">
-      </div>
-      </a>
-      
-      
- <a href="https://www.novatech.co.uk/" target="_blank" rel="noopener noreferrer">     
-      <div class="sponsor-logo">
-        <img src="https://media.licdn.com/dms/image/v2/D4E0BAQERb5GeBVwP7g/company-logo_200_200/company-logo_200_200/0/1688369383296/novatech_logo?e=2147483647&v=beta&t=DlfqUR3v9c8B9qftCRLVBJ4nlTTSYiolK0OFNqu5Fw8" alt="novatech">
-      </div>
-      </a>
-
-      <!-- Add more as needed -->
-
-    </div>
-      
-      
-
-      <a href="/sponsors/" 
-         class="btn btn-primary">
-        How to sponsor
-      </a>
-    </div>
-    
-</div>
-
-  </section>
-  
-  
-  
-  
-  
-
 <style>
 
 
@@ -249,7 +51,7 @@ a:hover {
     .ws-hero-sessions {
      width: 100vw;
     margin-left: calc(50% - 50vw);
-    height: 15vh;
+    height: 20vh;
     min-height: 320px;
     background-image: url("https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/eva-blue-banner-no-title.png?raw=true");  
      display: flex;
@@ -490,7 +292,14 @@ linear-gradient(
   padding: 1.5rem;
 }
 
+.hero-content h1 {
+  margin-bottom: 0.5rem;
+}
 
+.hero-content p {
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
 
 
 
@@ -558,11 +367,9 @@ section p {
   .hero-content p {
     font-size: 0.95rem;
     color: #ffffff !important;
-      max-width: 600px;
-  margin-bottom: 1rem;
   }
   
-
+/* Custom text tag fix */
 t {
   font-size: 1rem;
   line-height: 1.7;
@@ -713,6 +520,7 @@ t {
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 
+/* Logo image */
 .sponsor-logo img {
   max-width: 80%;
   max-height: 80%;
@@ -725,7 +533,7 @@ t {
 
 
 
-
+/* === Premium Infinite Carousel === */
 
 .carousel-wrapper {
   position: relative;
@@ -734,7 +542,7 @@ t {
   overflow: hidden;
   padding: 1rem 0;
 
-
+  /* Elegant fade edges */
   -webkit-mask-image: linear-gradient(
     to right,
     transparent 0%,
@@ -773,6 +581,7 @@ t {
 
 
 
+/* ===== Cards ===== */
 .session-card {
   width: 200px;
   flex: 0 0 300px;
@@ -799,26 +608,26 @@ t {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-
+/* Default fallback */
 .session-card .about-card {
   border-top: 5px solid #cccccc;
 }
 
-
+/* Category colours */
 .session-card.talk .about-card {
-  border-top-color: #0077cc;  
+  border-top-color: #0077cc;   /* blue */
 }
 
 .session-card.tutorial .about-card {
-  border-top-color: #00a86b;   
+  border-top-color: #00a86b;   /* green */
 }
 
 .session-card.keynote .about-card {
-  border-top-color: #8e44ad;  
+  border-top-color: #8e44ad;   /* purple */
 }
 
 .session-card.workshop .about-card {
-  border-top-color: #e67e22;   
+  border-top-color: #e67e22;   /* orange */
 }
 
 .about-card:hover {
@@ -836,7 +645,7 @@ t {
   margin-bottom: 0.7rem;
 
   display: -webkit-box;
-  -webkit-line-clamp: 3;  
+  -webkit-line-clamp: 3;   /* tighter for carousel */
   -webkit-box-orient: vertical;
   overflow: hidden;
   min-height: 5em;
@@ -880,7 +689,7 @@ t {
   text-align: left;
 }
 
-
+/* === REGISTER CTA (Premium) === */
 .register-cta {
   position: relative;
   margin-top: 0!important;
@@ -908,17 +717,17 @@ t {
 .register-cta-purple {
   background: linear-gradient(
     135deg,
-    #2e0f3a 0%,   
+    #2e0f3a 0%,   /* deep purple */
     #2e0f3a 25%,
-    #4b1f5e 50%,  
-    #6d2c7a 100% 
+    #4b1f5e 50%,  /* main purple */
+    #6d2c7a 100%  /* lighter purple */
   );
       margin-bottom: 0!important;
 }
 
 
 
-
+/* subtle glow effect */
 .register-cta::before {
   content: "";
   position: absolute;
@@ -956,7 +765,7 @@ t {
   margin-bottom: 1.8rem;
 }
 
-
+/* stronger CTA button */
 .btn-primary {
   background: #ffffff;
   color: #002A41 !important;
@@ -984,195 +793,354 @@ t {
 }
 
 
-
 @media (max-width: 900px) {
-  
 
-  body {
-    font-size: 15px;
-  }
-
-  section {
-    padding: 1.5rem 1rem;
-  }
-
-  section h2 {
-    font-size: 1.6rem;
-    margin-bottom: 0.8rem;
-  }
-
-  t, section p {
-    font-size: 0.95rem;
-    line-height: 1.6;
-  }
-
-
-.page__content,
-.page__inner-wrap,
-.wrapper,
-.initial-content {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-  .ws-hero-sessions {
-    height: 28vh;
-    min-height: 180px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .ws-hero__content {
-    padding: 0 1.2rem;
-    text-align: center;
-  }
-
-  .ws-hero h1 {
-    font-size: 1.9rem;
-  }
-
-  .ws-hero-cta {
-    font-size: 0.8rem;
-    padding: 0.5rem 0.9rem;
-  }
-
-
-  .hero-content h1 {
-    display: none;
-  }
-
-  .hero-content a:not([href*="youtu.be"]) {
-    display: none;
+  .dual-cards {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
   }
 
   .hero-inner {
     border-radius: 10px;
   }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+    color: #ffffff !important;
+  }
   
-    .ws-hero-banner {
-   margin-top: 0!important;
-  }
 
-
-
-  .btn {
-    width: 100%;
-    max-width: 320px;
-    margin: 0.6rem auto;
-    padding: 0.9rem 1.4rem;
-
-    font-size: 0.9rem;
-    border-radius: 999px;
-
-    display: flex;
-    justify-content: center;
-  }
-
-  .btn-primary,
-  .btn-purple {
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-  }
-
-  .btn:hover {
-    transform: none; 
-  }
-
-
-  .dual-cards {
-    padding: 0 1rem;
-    gap: 1.2rem;
-  }
 
   .call-for-submissions {
-    padding: 1.3rem;
-    border-radius: 16px;
+    padding: 1.5rem;
   }
 
-  .deadline-box {
-    font-size: 0.9rem;
-    padding: 0.8rem;
+  .call-for-submissions .btn {
+    width: 100%;
+    padding: 1rem;
   }
 
-
-  
   .image-grid {
     grid-template-columns: 1fr;
-    gap: 0.8rem;
   }
 
   .image-grid img {
     height: auto;
   }
 
+  section h2 {
+    font-size: 1.5rem;
+  }
+  .about-grid {
+    gap: 1.2rem;
+  }
 
-  .session-card {
-    flex: 0 0 240px;
+  .ws-hero__eyebrow {
+    display: none;
+  }
+  
+  .card-title {
+    -webkit-line-clamp: 2;
+  }
+
+
+
+  .parallax-hero {
+    background-attachment: scroll;
+    height: 38vh;
+  }
+  
+    .ws-hero {
+    height: 30vh;
+    min-height: 150px;
+      align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  }
+
+.ws-hero__content {
+  padding: 0 1.5rem;
+}
+
+  .about-grid {
+    gap: 1.5rem;
   }
 
   .card-title {
-    font-size: 0.85rem;
-  }
-
-  .card-text {
-    font-size: 0.7rem;
-  }
-
-
-  
-  .sponsors-strip {
-    padding: 1.5rem 1rem 2rem;
-  }
-
-  .sponsors-strip h2 {
-    font-size: 1.6rem;
-    margin-bottom: 1.2rem;
-  }
-
-  .sponsors-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.8rem;
-
-    max-width: 360px;
-    margin: 0 auto;
-  }
-
-  .sponsor-logo {
-    padding: 0.7rem;
-    border-radius: 10px;
-
-    aspect-ratio: 1 / 1;
-
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  }
-
-  .sponsor-logo img {
-    max-width: 55%;
-    max-height: 55%;
-    opacity: 0.95;
-  }
-
-  .sponsor-logo:hover {
-    transform: none;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  }
-
-
-  .register-cta {
-    padding: 2rem 1rem;
-  }
-
-  .register-cta h2 {
-    font-size: 1.5rem;
-  }
-
-  .register-cta p {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
+    -webkit-line-clamp: 2; 
+    min-height: 2.8em;
   }
   
+   .ws-hero-banner {
+   width: 100vw;
+  margin-left: calc(50% - 50vw);
+    height: 70vh;
+    min-height: 70px;
+    background-image: url("assets/images/eva-blue-banner.png");  
+  }
+
+}
+
+@media (max-width: 900px) {
+  
+  .hero-content h1,
+  .hero-content a:not([href*="youtu.be"]) {
+    display: none;
+  }
+
+
+  .hero-content {
+    justify-content: center;
+  }
 }
 
 </style>
+
+
+<section class="ws-hero ws-hero-banner full-bleed">
+</section>
+
+
+
+
+
+<section class="register-cta full-bleed fade-in">
+  <div class="register-content">
+    
+    <div class="register-content">
+      <h2>15th to 19th of June 2026</h2>
+ 
+  <p>
+    The <strong>Durham HPC Days</strong> bring together researchers, developers, and practitioners
+    to explore the frontiers of high-performance computing, data analysis, and scientific innovation.
+  </p>
+      <div class="register-meta">
+        📅 15–19 June 2026 &nbsp;&nbsp;•&nbsp;&nbsp; ⏳ Registration closes 20 April
+      </div>
+
+      <a href="https://pay.durham.ac.uk/event-durham/durham-hpc-days-2026" 
+         class="btn btn-primary">
+         Register now
+      </a>
+    </div>
+    
+</div>
+
+  </section>
+  
+
+
+
+
+
+
+<section id="featured-sessions" class="fade-in">
+  <h2>🎤 Featured Sessions</h2>
+
+  <div class="carousel-wrapper">
+    <div class="carousel-track">
+
+{% assign talks = site.programme-days-2026 | sort: "start_time" %}
+
+  
+      
+      
+            {% for talk in talks %}
+<a href="{{ talk.url }}" class="session-card {{ talk.category | downcase }}">
+  <div class="about-card">
+
+    <div class="card-title">{{ talk.title }}</div>
+
+    <div class="card-details">
+
+      <div class="card-row">
+        <div class="card-text">
+          📅 {{ talk.day }} · {{ talk.start_time }}–{{ talk.end_time }}
+        </div>
+      </div>
+
+      {% if talk.room and talk.room != "TBC" %}
+      <div class="card-row">
+      <div class="card-text"> 📍 {{ talk.room }}</div>
+      </div>
+      {% endif %}
+
+    </div>
+
+
+
+  </div>
+</a>
+      {% endfor %}
+      
+
+    </div>
+  </div>
+</section>
+
+
+
+<section id="programme" class="fade-in">
+  <h2>🗓️ Explore the Programme</h2>
+  <t style="max-width: 700px; margin: 0 auto 2rem;">
+    Discover the full schedule of keynotes, technical sessions, and social events for the upcoming conference.
+    Check the programme to plan your participation and make the most of your experience at Durham HPC Days.<br>
+  </t><br>
+  <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-hpcdays-2026/" class="btn btn-purple">Full programme coming up soon</a>
+</section>
+
+
+<section class="ws-hero ws-hero-sessions full-bleed">
+  <div class="ws-keynotes ws-hero__overlay"></div>
+  <div class="ws-keynotes-grid ws-hero__grid"></div>
+  <div class="ws-hero__content">
+    <h1>Keynotes</h1>
+    <a href="/keynotes/" class="ws-hero-cta">
+  Coming up soon <span>→</span>
+</a>
+  </div>
+</section>
+<section class="ws-hero ws-hero-sessions full-bleed">
+  <div class="ws-talks ws-hero__overlay"></div>
+  <div class="ws-talks-grid ws-hero__grid"></div>
+  <div class="ws-hero__content">
+    <h1>Talks</h1> <a href="/" class="ws-hero-cta">
+  Coming up soon <span>→</span>
+</a>
+  </div>
+</section>
+<section class="ws-hero ws-hero-sessions full-bleed">
+  <div class="ws-workshops ws-hero__overlay"></div>
+  <div class="ws-workshops-grid ws-hero__grid"></div>
+  <div class="ws-hero__content">
+    <h1>Workshops</h1>
+    <a href="/" class="ws-hero-cta">
+  Coming up soon <span>→</span>
+</a>
+  </div>
+</section>
+<section class="ws-hero ws-hero-sessions full-bleed">
+  <div class="ws-tutorials ws-hero__overlay"></div>
+  <div class="ws-tutorials-grid ws-hero__grid"></div>
+  <div class="ws-hero__content">
+    <h1>Tutorials</h1>
+    <a href="/tutorials/" class="ws-hero-cta">
+  Explore tutorials <span>→</span>
+</a>
+  </div>
+</section>
+
+
+
+
+
+
+<div class="header-image"></div>
+
+<section id="gallery" class="fade-in">
+  <h2>📸 Gallery</h2>
+  <div class="image-grid">
+    <img src="assets/images/Sessions.jpg" alt="Sessions">
+    <img src="assets/images/food-truck.jpg" alt="Food truck">
+    <img src="assets/images/social.png" alt="social">
+  </div>
+</section>
+
+
+<div class="herovid">
+  <div class="hero-inner">
+    <div class="hero-video">
+      <div id="yt-player"></div>
+    </div>
+    <div class="hero-content">
+    
+      <h1>Durham HPC Days 2025 Video Recap</h1>
+     
+      <a href="https://durham.readthedocs.io/en/latest/hpcdays2025/index.html" class="btn btn-purple" target="_blank" rel="noopener">Visit last year's website</a>
+
+      <a href="https://youtu.be/wPjtwACmaUg" class="btn btn-purple" target="_blank" rel="noopener">HPC Days 2025 Video</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<section class="register-cta  register-cta-purple full-bleed fade-in">
+  <div class="register-content">
+    
+    <div class="register-content">
+      <h2>Our Sponsors</h2>
+ 
+  <p>
+    If you are sponsoring and supporting HPC Days 2026, thank you very much! We would not be able to run the event without you!
+  </p>
+      
+      
+      
+        <div class="sponsors-grid">
+
+      <!-- Sponsor -->
+      <a href="https://www.ddn.com" target="_blank" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="https://www.ddn.com/wp-content/uploads/2024/09/ddn-logo-dark-horizontal-rgb.jpg" alt="ddn">
+      </div>
+      </a>
+      
+      
+      
+<a href="https://ocf.co.uk/" target="_blank" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="https://ocf.co.uk/images/logoblue.png" alt="OCF">
+      </div>
+       </a>
+      
+      
+      
+      
+<a href="https://eu.fsastech.com/eu/" target="_blank" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFz2Hw6LVRJlg/company-logo_200_200/B4DZWPBwyvHYAI-/0/1741861359139?e=2147483647&v=beta&t=sLukj4LFeyoCCButXJ0ICGVDUN3dEz_FDbeicBq3pNM" alt="Fsas Technologies">
+      </div>
+      </a>
+      
+      
+ <a href="https://www.novatech.co.uk/" target="_blank" rel="noopener noreferrer">     
+      <div class="sponsor-logo">
+        <img src="https://media.licdn.com/dms/image/v2/D4E0BAQERb5GeBVwP7g/company-logo_200_200/company-logo_200_200/0/1688369383296/novatech_logo?e=2147483647&v=beta&t=DlfqUR3v9c8B9qftCRLVBJ4nlTTSYiolK0OFNqu5Fw8" alt="novatech">
+      </div>
+      </a>
+
+      <!-- Add more as needed -->
+
+    </div>
+      
+      
+
+      <a href="/sponsors/" 
+         class="btn btn-primary">
+        How to sponsor
+      </a>
+    </div>
+    
+</div>
+
+  </section>
+  
+  
+  
+  
+  
+
 
 
 
@@ -1238,15 +1206,19 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!wrapper) return;
 
   let current = 0;
-  let speed = 0.25;   
+  let speed = 0.25;   // ⭐ tweak this (0.15 = slow, 0.4 = faster)
   let isPaused = false;
   let isDragging = false;
 
-
+  /* -----------------------
+     PAUSE ON HOVER
+  ----------------------- */
   wrapper.addEventListener("mouseenter", () => isPaused = true);
   wrapper.addEventListener("mouseleave", () => isPaused = false);
 
-
+  /* -----------------------
+     DRAG SUPPORT (optional but premium)
+  ----------------------- */
   let startX = 0;
   let scrollStart = 0;
 
@@ -1268,13 +1240,15 @@ document.addEventListener("DOMContentLoaded", () => {
     wrapper.scrollLeft = scrollStart - dx;
   });
 
- 
+  /* -----------------------
+     AUTO SCROLL LOOP
+  ----------------------- */
   function autoScroll() {
     if (!isPaused && !isDragging) {
       current += speed;
       wrapper.scrollLeft = current;
 
-
+      // seamless loop (because you duplicated cards)
       if (current >= wrapper.scrollWidth / 2) {
         current = 0;
         wrapper.scrollLeft = 0;
@@ -1284,6 +1258,6 @@ document.addEventListener("DOMContentLoaded", () => {
     requestAnimationFrame(autoScroll);
   }
 
-  autoScroll(); 
+  autoScroll(); // ⭐ IMPORTANT: start animation
 });
 </script>

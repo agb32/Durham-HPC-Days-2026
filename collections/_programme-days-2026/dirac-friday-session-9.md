@@ -118,8 +118,8 @@ category: "talk"
 day: "Friday"
 track: "A"
 
-start_time: "13:00"
-end_time: "15:00"
+start_time: "09:00"
+end_time: "10:30"
 
 day_1: "Friday"
 start_time_1: "09:00"
