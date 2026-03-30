@@ -79,18 +79,18 @@ institution_link: ""
 # Comma-separated list of organisers
 organiser: ""
 # Organisers logo
-organiser_logo: "https://fortran-lang.org/_static/fortran-logo-256x256.png"
+organiser_logo: ""
 # Organisers website link
-organiser_link: "https://fortran-lang.org/"
+organiser_link: ""
 
 
 # SUPPORTED
 # Comma-separated list of supporters
-supported: ""
+supported: "Software Sustainability Institute"
 # Institution logo
-supported_logo: ""
+supported_logo: "https://www.software.ac.uk/sites/default/files/2023-12/SSI_SUBMARK_LOGO_small.png"
 # Institution website link
-supported_link: ""
+supported_link: "https://www.software.ac.uk"
 
 
 
