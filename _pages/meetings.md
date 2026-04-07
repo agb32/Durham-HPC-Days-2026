@@ -1,10 +1,10 @@
 ---
 layout: splash
-title: "DRI Project Posters"
-permalink: /posters/
+title: "Meetings"
+permalink: /meetings/
+classes: wide
+
 ---
-
-
 <style>
 
 
@@ -20,8 +20,6 @@ permalink: /posters/
     background-position: center 60%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 48px 48px;
-    pointer-events: none;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -32,21 +30,21 @@ permalink: /posters/
     position: absolute;
     inset: 0;
   background: 
-    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), /* contrast layer */
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
     linear-gradient(
       135deg,
-rgba(120, 0, 0, 0.95) 0%,
-rgba(220, 50, 50, 0.75) 60%,
-rgba(120, 0, 0, 0.55) 100%
-);
+      rgba(90, 0, 60, 0.95) 0%,
+      rgba(200, 80, 150, 0.75) 60%,
+      rgba(90, 0, 60, 0.55) 100%
+    );
   }
 
-
+  /* Decorative grid lines */
   .ws-hero__grid {
     position: absolute;
     inset: 0;
-    background-image:
-   linear-gradient(rgba(255, 220, 120, 0.06) 1px, transparent 1px),
+  background-image:
+    linear-gradient(rgba(255, 220, 120, 0.06) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 220, 120, 0.06) 1px, transparent 1px);
     background-size: 48px 48px;
     pointer-events: none;
@@ -67,7 +65,7 @@ rgba(120, 0, 0, 0.55) 100%
     font-weight: 600;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.65);
+    color: #ffffff;
     margin-bottom: 0.75rem;
   }
 
@@ -76,7 +74,7 @@ rgba(120, 0, 0, 0.55) 100%
     display: block;
     width: 28px;
     height: 2px;
-  background: #ffffff;
+    background: #ffffff;
     border-radius: 2px;
   }
 
@@ -141,7 +139,7 @@ rgba(120, 0, 0, 0.55) 100%
   min-height: 150px;
 
   transition: all 0.25s ease;
-border-top: 6px solid #f5b800;
+  border-top: 6px solid rgba(90, 0, 60, 0.95);
 }
 
 
@@ -186,7 +184,7 @@ border-top: 6px solid #f5b800;
 }
 
 .about-button:hover {
-  background: #f5b800;
+  background: rgba(90, 0, 60, 0.95) ;
   transform: scale(1.05);
 }
 
@@ -246,84 +244,6 @@ border-top: 6px solid #f5b800;
   overflow: hidden;
 }
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-
-  padding: 1rem 2.4rem;
-  border-radius: 999px;
-
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-
-  text-decoration: none;
-  cursor: pointer;
-
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-/* === PRIMARY CTA (RED / HERO MATCH) === */
-.btn-purple {
-  background: linear-gradient(
-    135deg,
-    #7a0000 0%,
-    #d63a3a 55%,
-    #7a0000 100%
-  );
-
-  color: #ffffff !important;
-
-  box-shadow: 
-    0 10px 25px rgba(122, 0, 0, 0.35),
-    inset 0 1px 0 rgba(255,255,255,0.2);
-}
-
-
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 1rem 2.4rem;
-  border-radius: 999px;
-
-  font-weight: 700;
-  font-size: 1rem;
-  letter-spacing: 0.3px;
-
-  text-decoration: none;
-  cursor: pointer;
-
-  transition: all 0.25s ease;
-}
-
-.btn-purple {
-  background:  #002A41;
-  color: #ffffff !important;
-  box-shadow: 0 8px 20px rgba(0, 42, 65, 0.25);
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-.btn-purple:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 30px rgba(0, 42, 65, 0.35);
-}
-
-.btn-purple:active {
-  transform: translateY(-1px);
-}
-
-.btn-purple:focus-visible {
-  outline: 3px solid rgba(0, 61, 128, 0.5);
-  outline-offset: 4px;
-}
 @media (max-width: 768px) {
   .about-grid {
     gap: 1.2rem;
@@ -371,87 +291,134 @@ border-top: 6px solid #f5b800;
 
 </style>
 
-
 <section class="ws-hero">
   <div class="ws-hero__overlay"></div>
   <div class="ws-hero__grid"></div>
-
   <div class="ws-hero__content">
     <p class="ws-hero__eyebrow">Durham HPC Days 2026</p>
-
-    <h1>Poster Session</h1>
-
+    <h1>Meetings</h1>
     <p class="ws-hero__sub">
-      Join our poster session and connect with the UKRI Digital Research Infrastructure community
-    </p>
+    Click on any meeting below to see details.</p>
   </div>
 </section>
-<section class="dual-cards fade-in" id="submit">
 
- <div class="call-for-submissions">
- 
- 
- <section class="fade-in">
-  <h2>👥 Who is this for?</h2>
-
-  <t style="max-width: 700px; margin: 0 auto;">
-    We welcome posters from <strong>UKRI-funded DRI projects</strong> across the ecosystem,
-    including research infrastructure, skills, digital platforms, HPC services,
-    and software initiatives.
-  </t>
+<section class="description">
+  <p>
+    Welcome to the Durham HPC Days 2026 meetings. 
+    Click on any meeting below to see details.
+  </p>
 </section>
 
+<section class="about-grid">
+ {% assign workshops_raw = site.programme-days-2026 | where: "category", "Meeting" %}
 
-<section class="fade-in">
-  <h2>🤝 Why take part?</h2>
+{% assign sortable_list = "" | split: "" %}
 
-  <t style="max-width: 700px; margin: 0 auto;">
-    This session is designed to be relaxed, informal, and highly interactive.
-    It’s a great opportunity to share your work, meet potential collaborators,
-    and connect with others across the HPC and DRI landscape.
-  </t>
-</section>
+{% for w in workshops_raw %}
+
+ 
+  {% if w.start_time_1 %}
+    {% assign time = w.start_time_1 %}
+  {% elsif w.start_time %}
+    {% assign time = w.start_time %}
+  {% else %}
+    {% assign time = "23:59" %}
+  {% endif %}
 
 
+  {% case w.day_1 | default: w.day %}
+    {% when "Monday" %} {% assign day_num = "1" %}
+    {% when "Tuesday" %} {% assign day_num = "2" %}
+    {% when "Wednesday" %} {% assign day_num = "3" %}
+    {% when "Thursday" %} {% assign day_num = "4" %}
+    {% when "Friday" %} {% assign day_num = "5" %}
+    {% else %} {% assign day_num = "9" %}
+  {% endcase %}
+
+ 
+  {% assign key = day_num | append: "-" | append: time | append: "||" | append: w.title %}
+
+  {% assign sortable_list = sortable_list | push: key %}
+
+{% endfor %}
+
+{% assign sortable_list = sortable_list | sort %}
 
 
+{% assign seen_titles = "" %}
 
-  <h2>📌 Bringing a poster?</h2>
+{% for item in sortable_list %}
 
-  <t>
-    If you're part of a <strong>UKRI-funded Digital Research Infrastructure (DRI) project</strong>,
-    you’re very welcome to bring a poster and showcase your work at 
-    <strong>Durham HPC Days 2026</strong>.
-    <br>
+  {% assign parts = item | split: "||" %}
+  {% assign title = parts[1] %}
 
-    There’s no formal submission process - just let us know if you’re planning to bring a poster so we can make sure there’s space for everyone.<br><br>
-  </t>
+  {% assign workshop = site.programme-days-2026 | where: "title", title | first %}
 
-  <div class="deadline-box">
-    📅 <strong>Wednesday · 16:30 - 18:00</strong><br>
-    📍 Poster session & informal networking<br><br>
-  </div>
+  {% unless seen_titles contains workshop.title %}
+      
+<div class="about-card">
 
-  <t>
-    You can explore examples of projects in the UKRI DRI landscape here: <a href="https://www.cake.ac.uk/landscape/rtp" target="_blank">
-      Link to CAKE's website →
-    </a>
-  </t>
+  <div class="card-title">{{ workshop.title }}</div>
 
-  <br>
+  <div class="card-details">
 
-  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlBhRpzyeDrFBkd8HIFx_xpdUOEdFSzlOUjBaUkVLQTZCMUhCWElERkJXUy4u" 
-     class="btn btn-purple">
-    I’m bringing a poster (Form) <span>→</span>
-  </a>
+  {% if workshop.start_time_2 %}
+    <div class="card-row">
+    
+     <div class="card-icon">📅</div>
+      <div class="card-text">
+        {{ workshop.day_1 }} · {{ workshop.start_time_1  }}-{{ workshop.end_time_1  }}
+      </div>
+      
+          
+    </div>
+    
+    
+        <div class="card-row">
+    
+     <div class="card-icon">📅</div>
+      <div class="card-text">
+        {{ workshop.day_2 }} · {{ workshop.start_time_2  }}-{{ workshop.end_time_2  }}
+      </div>
+      
+          
+    </div>
+    
+    
+    
+  {% elsif workshop.start_time %}
+    <div class="card-row">
+    
+    
+      <div class="card-icon">📅</div>
+      <div class="card-text">
+        {{ workshop.day }} · {{ workshop.start_time }}-{{ workshop.end_time }}
+      </div>
+      
+      
+    </div>
+  {% endif %}
 
-  
+  {% if workshop.room and workshop.room != "TBC" %}
+    <div class="card-row">
+      <div class="card-icon">📍</div>
+      <div class="card-text">{{ workshop.room }}</div>
+    </div>
+  {% endif %}
+
+
 
 </div>
+
+  <a href="{{ workshop.url | relative_url }}" class="about-button">
+    View Workshop
+  </a>
+
+</div>
+
+      {% assign seen_titles = seen_titles | append: workshop.title | append: "|" %}
+    
+    {% endunless %}
+  {% endfor %}
 </section>
-
-
-
-
-
 

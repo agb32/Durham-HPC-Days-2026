@@ -61,7 +61,7 @@ classes: [full-programme]
     {% assign day_sessions = combined | sort: "start_time" %}
 
     {% if day_sessions != empty %}
-      <section class="programme-day expanded" id="{{ current_day | downcase }}">
+     <section class="programme-day" id="{{ current_day | downcase }}">
         
         <h2 class="day-toggle">
           <span class="arrow">&gt;</span> {{ current_day }}
@@ -114,16 +114,6 @@ classes: [full-programme]
                 {{ this_session.title }}
               </a>
             </h3>
-
-{% if this_session.abstract %}
-  {% assign plain_abstract = this_session.abstract | strip_html | strip_newlines | truncate: 90, "..." %}
-  <p class="abstract">{{ plain_abstract }}</p>
-  <a class="read-more" href="{{ this_session.url | relative_url }}">Read more →</a>
-{% endif %}
-
-
-
-
 
 
 
@@ -214,7 +204,7 @@ classes: [full-programme]
 }
 
 .session-card .speaker {
-  font-size: 0.75rem;
+  font-size: 1.25rem;
 }
 
 .session-card .room {
@@ -531,6 +521,49 @@ font-size: 0.6rem;
 
 
 
+.session-card.keynote {
+  background-color: #f1e6f4;
+  border-left-color: #68246d;
+}
+
+.session-card.meeting {
+  background-color: #f8e4f0;
+  border-left-color: #c85096;
+}
+
+.session-card.workshop {
+  background-color: #e3eff9;
+  border-left-color: #2975c1;
+}
+
+.session-card.talk {
+  background-color: #e2f3ea;
+  border-left-color: #00a86b;
+}
+
+.session-card.tutorial {
+  background-color: #fff4cc;
+  border-left-color: #f5b800;
+}
+
+.session-card.poster {
+  background-color: #f8dada;
+  border-left-color: #dc3232;
+}
+
+.session-card.social {
+  background-color: #ffe8cc;
+  border-left-color: #ff8c00;
+  flex-grow: 0 !important;
+  flex-shrink: 0;
+}
+
+.session-card.coffee {
+  background-color: #f8fafc;
+  border-left-color: #e2e8f0;
+}
+
+
 
 .session-card.social .time-label {
   font-weight: 800;
@@ -549,48 +582,103 @@ font-size: 0.6rem;
 }
 
 
-.session-card.opening { background-color: #68246D; color: #fff; border-left-color: #68246D; }
-.session-card.opening h3, .session-card.opening .speaker, .session-card.opening .room { color: #002A41; }
 
-.session-card.tbd {
-  opacity: 0.35;
-  filter: saturate(0.6);
+.session-card h3 {
+  font-size: 1rem;
+  margin: 0;
 }
 
-.session-card.tbd:hover {
-  opacity: 0.55;
+.session-card:hover {
+  filter: brightness(1) saturate(1.4);
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  cursor: pointer;
+}
+
+.session-card.dimmed {
+  opacity: 0.15;
+  transform: scale(0.98);
 }
 
 .session-card.highlighted {
-  opacity: 1;
-  filter: saturate(1.25) brightness(1.05);
-  transform: scale(1.01);
+  transform: scale(1);
   z-index: 5;
 }
 
-.session-card.highlighted {
-  opacity: 1;
-  filter: saturate(1.25) brightness(1.05);
-  box-shadow: 0 6px 14px rgba(0,42,65,0.15);
-  transform: scale(1.01);
-  z-index: 5;
+.session-card.opening {
+  background-color: #68246D;
+  color: #fff;
+  border-left-color: #68246D;
 }
-.session-card.keynote { background-color: #DFDBF5; border-left-color: #2E2278; }
-.session-card.meeting { background-color: #F5DBF2; border-left-color: #78206E; }
-.session-card.workshop { background-color: #D3E4F5; border-left-color: #194775; }
-.session-card.talk { background-color: #D1E5D2; border-left-color: #315933; }
-.session-card.session { background-color: #F3E5F5; border-left-color: #9C27B0; }
-.session-card.tutorial { background-color: #E6DDC0; border-left-color: #534721; }
-.session-card.poster { background-color: #CEBCBC; border-left-color: #7A5958; }
-.session-card.coffee { background-color: #F8FAFC; border-left-color: #F8FAFC; }
-.session-card.social { background-color: #F8FAFC; border-left-color: #F8FAFC; }
 
-.session-card .speaker { font-size: 0.4rem; color: #333; margin:0; }
-.session-card .room { font-size: 0.6rem; color: #444; margin:0; }
+.session-card.opening h3,
+.session-card.opening .speaker,
+.session-card.opening .room {
+  color: #002A41;
+}
+
+.session-card.keynote {
+  background-color: #f1e6f4;
+  border-left-color: #68246d;
+}
+
+.session-card.meeting {
+  background-color: #f8e4f0;
+  border-left-color: #c85096;
+}
+
+.session-card.workshop {
+  background-color: #e3eff9;
+  border-left-color: #2975c1;
+}
+
+.session-card.talk {
+  background-color: #e2f3ea;
+  border-left-color: #00a86b;
+}
+
+.session-card.tutorial {
+  background-color: #fff4cc;
+  border-left-color: #f5b800;
+}
+
+.session-card.poster {
+  background-color: #f8dada;
+  border-left-color: #dc3232;
+}
+
+.session-card.social {
+  background-color: #ffe8cc;
+  border-left-color: #ff8c00;
+  flex-grow: 0 !important;
+  flex-shrink: 0;
+}
+
+.session-card.coffee {
+  background-color: #f8fafc;
+  border-left-color: #e2e8f0;
+}
+
+.week-cell:has(.session-card:not(.social)) .session-card.social {
+  flex-grow: 0;
+}
+
+.session-card .speaker {
+  font-size: 0.4rem;
+  color: #333;
+  margin: 0;
+}
+
+.session-card .room {
+  font-size: 0.6rem;
+  color: #444;
+  margin: 0;
+}
 
 .week-cell .session-card h3 a {
   color: inherit !important;
 }
+
 .session-card.opening h3 a {
   color: #ffffff !important;
 }
@@ -600,7 +688,6 @@ font-size: 0.6rem;
 .session-card.session h3 a,
 .session-card.tutorial h3 a,
 .session-card.poster h3 a,
-
 .session-card.social h3 a {
   color: #002A41 !important;
 }
@@ -610,6 +697,9 @@ font-size: 0.6rem;
    .programme-sidebar {
     display: none;
   }
+
+
+.session-card .speaker { display: none; }
 
   .programme-main {
     flex: 1 1 100%;
@@ -635,7 +725,17 @@ padding: 0.5rem;
     padding-top: 0.5rem;  
       padding-bottom: 0.5rem; 
 }
+
+.day-toggle .arrow {
+    display: none;
   }
+    .programme-day {
+    max-height: none; 
+  }
+  
+  
+  }
+  
   .session-card {
     display: flex;
     flex-direction: column;
@@ -691,17 +791,9 @@ padding: 0.5rem;
 }
 
 
-.session-card.keynote { background-color: #F5DBF2; border-left-color: #78206E; }
-.session-card.workshop { background-color: #D3E4F5; border-left-color: #194775; }
-.session-card.talk { background-color: #D1E5D2; border-left-color: #315933; }
-.session-card.session { background-color: #F3E5F5; border-left-color: #9C27B0; }
-.session-card.tutorial { background-color: #E6DDC0; border-left-color: #534721; }
-.session-card.poster { background-color: #CEBCBC; border-left-color: #7A5958; }
-.session-card.coffee { background-color: #F8FAFC; border-left-color: #F8FAFC; }
-.session-card.social { background-color: #F8FAFC; border-left-color: #F8FAFC; }
 
-.session-card .speaker { font-size: 0.7rem; color: #333; margin:0; }
-.session-card .room { font-size: 0.6rem; color: #444; margin:0; }
+.session-card .speaker { font-size: 0.8rem; color: #333; margin:0; }
+.session-card .room { font-size: 0.8rem; color: #444; margin:0; }
 
 .week-cell .session-card h3 a {
   color: inherit !important;

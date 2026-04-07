@@ -96,7 +96,30 @@ hidden: true
   </div>
 </section>
 
+<section class="ws-hero ws-hero-sessions full-bleed">
+  <div class="ws-meetings ws-hero__overlay"></div>
+  <div class="ws-meetings-grid ws-hero__grid"></div>
+  <div class="ws-hero__content">
+    <h1>Meetings</h1>
+    <a href="/" class="ws-hero-cta">
+  Coming up soon <span>→</span>
+</a>
+  </div>
+</section>
 
+
+
+
+<section class="ws-hero ws-hero-sessions full-bleed">
+  <div class="ws-social ws-hero__overlay"></div>
+  <div class="ws-social-grid ws-hero__grid"></div>
+  <div class="ws-hero__content">
+    <h1>Socials</h1>
+    <a href="/" class="ws-hero-cta">
+  Coming up soon <span>→</span>
+</a>
+  </div>
+</section>
 
 
 
@@ -260,7 +283,7 @@ a:hover {
     .ws-hero-sessions {
      width: 100vw;
     margin-left: calc(50% - 50vw);
-    height: 15vh;
+    height: 9vh;
     min-height: 320px;
     background-image: url("https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/eva-blue-banner-no-title.png?raw=true");  
      display: flex;
@@ -349,6 +372,57 @@ linear-gradient(
  .ws-keynotes-grid {
    background-image:
    linear-gradient(rgba(255, 220, 120, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 220, 120, 0.06) 1px, transparent 1px);
+}
+
+.ws-posters {
+  background: 
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    linear-gradient(
+      135deg,
+      rgba(120, 0, 0, 0.95) 0%,
+      rgba(220, 50, 50, 0.75) 60%,
+      rgba(120, 0, 0, 0.55) 100%
+    );
+}
+
+.ws-posters-grid {
+  background-image:
+    linear-gradient(rgba(255, 220, 120, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 220, 120, 0.06) 1px, transparent 1px);
+}
+
+.ws-meetings {
+  background: 
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    linear-gradient(
+      135deg,
+      rgba(90, 0, 60, 0.95) 0%,
+      rgba(200, 80, 150, 0.75) 60%,
+      rgba(90, 0, 60, 0.55) 100%
+    );
+}
+
+.ws-meetings-grid {
+  background-image:
+    linear-gradient(rgba(255, 220, 120, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 220, 120, 0.06) 1px, transparent 1px);
+}
+
+.ws-social {
+  background: 
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    linear-gradient(
+      135deg,
+      rgba(140, 60, 0, 0.95) 0%,
+      rgba(255, 140, 0, 0.75) 60%,
+      rgba(140, 60, 0, 0.55) 100%
+    );
+}
+
+.ws-social-grid {
+  background-image:
+    linear-gradient(rgba(255, 220, 120, 0.06) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 220, 120, 0.06) 1px, transparent 1px);
 }
 
