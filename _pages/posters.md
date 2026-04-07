@@ -9,6 +9,7 @@ permalink: /posters/
 
 
 
+  
   .ws-hero {
     position: relative;
     width: 100vw;
@@ -20,8 +21,6 @@ permalink: /posters/
     background-position: center 60%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 48px 48px;
-    pointer-events: none;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;

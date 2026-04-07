@@ -29,10 +29,18 @@ classes: [full-programme]
 {% endfor %}
 
 {% assign time_slots = time_slots | sort %}
-
+<div class="mobile-programme-landing">
+  <div class="mobile-landing-inner">
+    <h1>Durham HPC Days 2026</h1>
+    <p class="subtitle">Conference Programme - Mobile Version</p>
+    <a href="/programme-hpcdays-days-2026/" class="btn-see-programme">See Full Programme</a>
+  </div>
+</div>
 <div class="programme-container">
 
 <main class="programme-main">
+
+
 <br> <br> 
 
 <div class="programme-legend">
@@ -530,6 +538,67 @@ classes: [full-programme]
 
 
 
+@media (max-width: 900px) {
+
+ 
+  .programme-container {
+    display: none !important;
+  }
+
+ 
+  .mobile-programme-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #f4f6f8, #ffffff);
+    padding: 2rem 2rem;
+    margin-top: 2rem;
+  }
+
+  .mobile-landing-inner h1 {
+    font-size: 2rem;
+    color: #002A41;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+  .mobile-landing-inner .subtitle {
+    font-size: 1rem;
+    color: #5f6c7b;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-landing-inner .btn-see-programme {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #68246D;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .mobile-landing-inner .btn-see-programme:hover {
+    background-color: #50205a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+}
+
+
+@media (min-width: 901px) {
+  .mobile-programme-landing {
+    display: none;
+  }
+}
+
+
+
 </style>
 
 
@@ -614,16 +683,6 @@ document.addEventListener("click", function (event) {
 
 </script>
 
-<script>
-(function () {
-  const target = "/programme-hpcdays-days-2026/";
-  const isMobile = window.matchMedia("(max-width: 900px)").matches;
-
-  if (isMobile && window.location.pathname !== target) {
-    window.location.replace(target);
-  }
-})();
-</script>
 
 
 
