@@ -4,7 +4,6 @@ title: "Conference Programme"
 permalink: /programme-hpcdays-day-2026/
 classes: [full-programme]
 ---
-
 {% assign all_sessions = site.programme-days-2026
   | where_exp: "s", "s.start_time"
   | sort: "start_time" %}
@@ -682,3 +681,6 @@ document.addEventListener("click", function (event) {
 
 
 </script>
+
+
+
