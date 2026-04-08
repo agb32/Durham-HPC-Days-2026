@@ -14,7 +14,7 @@ title: "Model Parallelism: Building and Deploying Large Neural Networks"
 
 
 # Comma-separated list of INSTRUCTORS
-instructor: "Karin Sevegnani, Paul Graham"
+instructor: "Andrea Pilzer, Paul Graham"
 
 # INSTRUCTORS photos (must match order of names above). 
 instructor_photos:
