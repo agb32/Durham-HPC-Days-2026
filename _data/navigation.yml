@@ -11,6 +11,8 @@ main:
     url: /talks/
   - title: "Poster Session"
     url: /posters/
+  - title: "Socials"
+    url: /socials/
   - title: "Sponsors"
     url: /sponsors/
   - title: "Past Durham HPC Days"

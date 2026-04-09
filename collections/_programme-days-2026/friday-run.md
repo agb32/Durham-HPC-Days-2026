@@ -7,3 +7,4 @@ category: "Social"
 layout: single
 ---
 
+<meta http-equiv="refresh" content="0; url=/socials/" />
