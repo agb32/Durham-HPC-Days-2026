@@ -45,6 +45,12 @@ classes: [full-programme]
 
 <br> <br> 
 
+  <div class="legend-link-wrapper">
+  <a href="{{ '/rooms/' | relative_url }}" class="legend-link">
+    🗺️ Check where the rooms are on the map
+  </a>
+  </div>
+  
 <div class="programme-legend">
 
   <div class="legend-item keynote" data-category="keynote"><span class="legend-colour"></span> Keynotes</div>
@@ -54,6 +60,7 @@ classes: [full-programme]
   <div class="legend-item poster" data-category="poster"><span class="legend-colour"></span> Posters</div>
   <div class="legend-item social" data-category="social"><span class="legend-colour"></span> Socials</div>
   <div class="legend-item meeting" data-category="meeting"><span class="legend-colour"></span> Meetings</div>
+
 </div>
 
 <div class="week-grid">
@@ -274,6 +281,34 @@ font-size: 0.5rem;
 
 .meta-line {
   display: block;
+}
+
+.legend-link-wrapper {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.legend-link {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 999px;
+  background: #002A41;
+  color: #fff !important;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+}
+
+.legend-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
 

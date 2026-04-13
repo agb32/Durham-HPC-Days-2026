@@ -13,6 +13,8 @@ main:
     url: /posters/
   - title: "Socials"
     url: /socials/
+  - title: "Find your room"
+    url: /rooms/
   - title: "Sponsors"
     url: /sponsors/
   - title: "Past Durham HPC Days"
