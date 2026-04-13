@@ -21,7 +21,7 @@ institutions_logo: "https://www.bsc.es/sites/default/files/public/styles/bscw2_-
 institution_link: "https://www.bsc.es"
 
 
-room: "Mountjoy Centre"
+room: "MCS0001"
 layout: keynote
 category: "keynote"
 description: "I begin with a brief review of the history of high performance computing systems with a focus on the 'balances' between computations and different classes of memory accesses.   Technology scaling and multi-core processing has led to astounding increases in the computational capabilities of microprocessors over the past decades, while the cycle time of the DRAM cells in memory systems has barely changed.   The increasing imbalance between computation and memory access costs has led to stunningly complex processor implementations with astronomical design and fabrication costs, rapidly growing power requirements, and increasingly opaque and confounding performance characteristics. <br>

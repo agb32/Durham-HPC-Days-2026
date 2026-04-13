@@ -144,7 +144,7 @@ day_2: "Friday"
 start_time_2: "13:00"
 end_time_2: "15:00"
 
-room: "Mountjoy Centre"
+room: "MCS0001"
 
 
 

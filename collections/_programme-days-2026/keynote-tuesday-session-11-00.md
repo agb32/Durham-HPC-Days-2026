@@ -21,7 +21,7 @@ institution_logo: "https://s2020.s3.amazonaws.com/media/logo-scripps-ucsd-dark.p
 institution_link: "https://scripps.ucsd.edu/"
 
 
-room: "Mountjoy Centre"
+room: "MCS0001"
 layout: keynote
 category: "keynote"
 description: "TBD"

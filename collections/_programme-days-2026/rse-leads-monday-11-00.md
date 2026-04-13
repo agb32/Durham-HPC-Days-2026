@@ -141,7 +141,7 @@ day_3: "Monday"
 start_time_3: "16:30"
 end_time_3: "18:00"
 
-room: "Mountjoy Centre"
+room: "MJC2006"
 
 
 

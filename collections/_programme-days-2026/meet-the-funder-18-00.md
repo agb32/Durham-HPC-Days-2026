@@ -123,7 +123,7 @@ end_time: "20:00"
 
 
 
-room: "Mountjoy Centre"
+room: "MCS"
 
 
 

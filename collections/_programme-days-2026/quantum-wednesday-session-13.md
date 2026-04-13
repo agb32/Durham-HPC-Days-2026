@@ -130,7 +130,7 @@ start_time_2: "13:00"
 end_time_2: "14:30"
 
 
-room: "Mountjoy Centre"
+room: "MJC2006"
 
 
 

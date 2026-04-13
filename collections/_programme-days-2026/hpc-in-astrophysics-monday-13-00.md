@@ -193,7 +193,7 @@ start_time_2: "16:30"
 end_time_2: "18:00"
 
 
-room: "Mountjoy Centre"
+room: "MCS0001"
 
 
 

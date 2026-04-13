@@ -21,7 +21,7 @@ institution_logo: ""
 institution_link: ""
 
 
-room: "Mountjoy Centre"
+room: "MCS0001"
 layout: keynote
 category: "keynote"
 description: ""
