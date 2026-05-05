@@ -258,7 +258,7 @@ hidden: true
        </a>
 
 
-              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjHt7zO7-KTAxWfUUEAHSOuHtAQFnoECAwQAQ&url=https%3A%2F%2Fwww.stackhpc.com%2F&usg=AOvVaw3_HCI0LAC1JzR1DqJ8p2Yb&opi=89978449" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.stackhpc.com/" rel="noopener noreferrer">
       <div class="sponsor-logo">
         <img src="https://avatars.githubusercontent.com/u/22750772?s=200&v=4">
       </div>
@@ -296,7 +296,32 @@ hidden: true
       </div>
        </a>
        
+                        <a href="https://www.beegfs.io/c/">
+      <div class="sponsor-logo">
+        <img src="https://www.advancedclustering.com/wp-content/uploads/2022/04/BeeGFS_big.png">
+      </div>
+       </a>
+
+                 <a href="https://www.bios-it.co.uk/home.aspx">
+      <div class="sponsor-logo">
+        <img src="https://media.licdn.com/dms/image/v2/C4E0BAQG7i6L8ZnTHqw/company-logo_200_200/company-logo_200_200/0/1630564451226/bios_it_logo?e=2147483647&v=beta&t=qTte_UB3GWiohyKQaOdEc4jePDPzDY9J1D7q1H32vW0">
+      </div>
+       </a>
        
+                        <a href="https://www.computacenter.com/en-gb">
+      <div class="sponsor-logo">
+        <img src="https://reciteme.com/wp-content/uploads/2015/06/Computacenter-quote-image-logo-1024x1024.png">
+      </div>
+       </a>
+       
+     
+     <a href="https://alces-flight.com/">
+      <div class="sponsor-logo">
+        <img src="https://alces-flight.com/wp-content/uploads/2023/11/Alces-Flight-KG-Logo.png">
+      </div>
+       </a>
+
+
        
        
        

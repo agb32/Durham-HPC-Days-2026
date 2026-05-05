@@ -190,6 +190,34 @@ permalink: /sponsors/
         <img src="https://media.licdn.com/dms/image/v2/D4E0BAQHXQBXfdTL5CQ/company-logo_200_200/company-logo_200_200/0/1696902111021/rockport_networks_inc__logo?e=1778716800&v=beta&t=t-VbfOn9xbXHlCrktMXJmXScWka56JMWKRPJ8IosSaY">
       </div>
        </a>
+       
+       
+                 <a href="https://www.beegfs.io/c/">
+      <div class="sponsor-logo">
+        <img src="https://www.advancedclustering.com/wp-content/uploads/2022/04/BeeGFS_big.png">
+      </div>
+       </a>
+
+                 <a href="https://www.bios-it.co.uk/home.aspx">
+      <div class="sponsor-logo">
+        <img src="https://media.licdn.com/dms/image/v2/C4E0BAQG7i6L8ZnTHqw/company-logo_200_200/company-logo_200_200/0/1630564451226/bios_it_logo?e=2147483647&v=beta&t=qTte_UB3GWiohyKQaOdEc4jePDPzDY9J1D7q1H32vW0">
+      </div>
+       </a>
+       
+                        <a href="https://www.computacenter.com/en-gb">
+      <div class="sponsor-logo">
+        <img src="https://reciteme.com/wp-content/uploads/2015/06/Computacenter-quote-image-logo-1024x1024.png">
+      </div>
+       </a>
+       
+     
+     <a href="https://alces-flight.com/">
+      <div class="sponsor-logo">
+        <img src="https://alces-flight.com/wp-content/uploads/2023/11/Alces-Flight-KG-Logo.png">
+      </div>
+       </a>
+
+
 
 
       <!-- Add more as needed -->
@@ -217,10 +245,11 @@ If you have any questions, please contact Alastair Basden at a.g.basden@durham.a
       
       <h2 style="font-size: 1.8rem; margin-bottom: 1rem;">Attendance & Registration</h2>
       <p style="margin-bottom: 1rem;">
-        You are welcome to attend as much or as little of the event as you wish. Please <a href="https://pay.durham.ac.uk/event-durham/durham-hpc-days-2026" style="color:#8e3d94;">register here</a> so we can plan for catering and logistics.
+        You are welcome to attend as much or as little of the event as you wish.
       </p>
       <p style="margin-bottom: 1rem;">
-        The key day is <strong>Wednesday afternoon/evening</strong> when the sponsor session will be. We expect that most sponsors will arrive on Wednesday and depart on Thursday. However, some will likely stay for the full week, which is very welcome.
+        The key day is <strong>Wednesday afternoon/evening</strong> when the sponsor session will be. We expect that most sponsors will arrive on Wednesday and depart on Thursday. However some will likely stay for longer, or even the full week, which is very welcome.
+
       </p>
       <p>
         Durham offers plenty of <a href="https://durham.readthedocs.io/en/latest/hpcdays2025/hotels.html" style="color:#8e3d94;">hotel options</a> nearby.
@@ -228,18 +257,23 @@ If you have any questions, please contact Alastair Basden at a.g.basden@durham.a
 
       <h2 style="font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem;">Sponsor Session</h2>
       <p style="margin-bottom: 1rem;">
-        The Sponsor Session is on <strong>Wednesday at 16:30</strong> with lightning talks followed by a panel session where the audience can ask you questions.
-        Please plan a talk of around 5 minutes for this. You can either present using your own laptop, or provide the slides to us in advance. The talk should be aimed at a research audience (non-technical, with some technical ability), and should not be a marketing talk, since the audience will likely have no direct purchasing power.
+        The Sponsor Session is on Wednesday starting from 15:00, continuing until 18:00. There will be a 2-3 minute slot to the whole general audience where you should introduce yourself, followed by a 15 minute panel session taking questions from the audience.  There will then be a more focused 8 minute slot to a smaller audience of those who wish to come.  You can also opt to have a second (identical) 8 minute slot if you wish, please let us know. <br>
+
+You can either present using your own laptop or send us slides in advance.The talk should be aimed at a research audience (non-technical, with some technical ability), and should not be a marketing talk.
+
       </p>
 
       <h2 style="font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem;">Table Top Display</h2>
       <p style="margin-bottom: 1rem;">
-		You will have a table top where you can set up a stand. Feel free to bring a banner, and stuff to go on your table, including merch to give away. This will be adjacent to the coffee/lunch room, so should see good footfall.
+		You will have a table top (approx 2x1m) where you can set up a stand. Feel free to bring a banner, and stuff to go on your table, including merch to give away.  There will be two chairs. This will be in the coffee/lunch room, so should see good footfall.  Should you wish to have more space or chairs, please let us know in advance.
+		
+If you wish to remain beyond Thursday lunchtime, it will be necessary to move the stand to an adjacent building.  We can assist with that if necessary.
+
       </p>
 
       <h2 style="font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem;">Treasure Hunt</h2>
       <p style="margin-bottom: 1rem;">
-        There will be a treasure hunt for attendees (including sponsors, if desired) to do, which will encourage interaction with the sponsors. They will need to ask you a question or get information from your stand to complete the answers, and so help to encourage interaction. This will take place on Wednesday.
+        There will be a treasure hunt for attendees (including sponsors, if desired) to do, which will encourage interaction with the sponsors. They will need to ask you a question or get information from your stand or presentation to complete the answers, and so help to encourage interaction. This will take place on Wednesday.
       </p>
 
       <h2 style="font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem;">Attendees</h2>
@@ -265,6 +299,18 @@ If you have any questions, please contact Alastair Basden at a.g.basden@durham.a
         If you would like a visitor parking permit, please provide name, car reg details, and the times you’d like the permit for, to Alastair, at least a few days in advance. There may not be enough spaces, so some walking may be required. However, vehicle access up to the venue is possible, for dropping off kit.
       </p>
 
+
+
+      <h2 style="font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem;">Arrival</h2>
+      <p>
+        Upon arrival in Durham, please go to the Mountjoy Centre building entrance where the registration desk will be.  From there, head up the half-flight of stairs to the main meeting venue in the Maple Wing of the building.
+        
+A map can be found (here)[https://hpc-days.github.io/Durham-HPC-Days-2026/rooms/]
+
+If you have requested a parking permit, this should be available for collection at the Stockton Road site entrance (DH1 3LE, not South Road), in the Security Lodge.  The security team will direct you to your dedicated parking space.  You will also be able to park closer to the venue to unload.
+      </p>
+      
+      
     </div>
   </div>
 </section>
