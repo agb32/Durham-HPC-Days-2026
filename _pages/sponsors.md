@@ -305,7 +305,12 @@ If you wish to remain beyond Thursday lunchtime, it will be necessary to move th
       <p>
         Upon arrival in Durham, please go to the Mountjoy Centre building entrance where the registration desk will be.  From there, head up the half-flight of stairs to the main meeting venue in the Maple Wing of the building.
         
-A map can be found (here)[https://hpc-days.github.io/Durham-HPC-Days-2026/rooms/]
+A map can be found
+
+      <p>
+        A map can be found <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/rooms/" style="color:#8e3d94;">here</a> nearby.
+      </p>
+      
 
 If you have requested a parking permit, this should be available for collection at the Stockton Road site entrance (DH1 3LE, not South Road), in the Security Lodge.  The security team will direct you to your dedicated parking space.  You will also be able to park closer to the venue to unload.
       </p>
