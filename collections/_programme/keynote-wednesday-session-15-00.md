@@ -1,12 +1,5 @@
 ---
-title: "KEYNOTE TBD"
-
-
-lead: "Alice-Agnes Gabriel"
-lead_photos:
-  - "https://shareing-dri.github.io/assets/profilepics/generic.jpg"
-lead_links: "https://www.alicegabriel.com/"
-
+title: "Vendor Session"
 
 
 day: "Wednesday"
@@ -15,14 +8,13 @@ track: "A"
 start_time: "15:00"
 end_time: "16:30"
 
-  
-institution: "SCRIPPS"
-institution_logo: "https://s2020.s3.amazonaws.com/media/logo-scripps-ucsd-dark.png"
-institution_link: "https://scripps.ucsd.edu/"
 
+room: "MCS0001"
+layout: session
+category: "Poster"
+description: "Join us for a fast-paced vendor showcase featuring a series of short, high-impact talks from leading HPC industry partners. Each vendor will deliver a 2–3 minute overview highlighting their latest technologies, services, and innovations supporting high-performance computing.<br>
 
-room: "Mountjoy Centre"
-layout: keynote
-category: "keynote"
-description: "TBD"
+<br/>This will be followed by a panel session.<br/><br/>
+
+Participating vendors include BeeGFS, BIOS-It, Computacenter, Dell, DDN, FSAS Technologies, Midas, Novatech, OCF, PeakAIO, Spectra Logic, StackHPC, VAST and Vespertec"
 ---

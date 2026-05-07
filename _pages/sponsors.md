@@ -200,7 +200,7 @@ permalink: /sponsors/
 
                  <a href="https://www.bios-it.co.uk/home.aspx">
       <div class="sponsor-logo">
-        <img src="https://media.licdn.com/dms/image/v2/C4E0BAQG7i6L8ZnTHqw/company-logo_200_200/company-logo_200_200/0/1630564451226/bios_it_logo?e=2147483647&v=beta&t=qTte_UB3GWiohyKQaOdEc4jePDPzDY9J1D7q1H32vW0">
+        <img src="assets/images/biositlogo.png">
       </div>
        </a>
        
@@ -214,6 +214,12 @@ permalink: /sponsors/
      <a href="https://alces-flight.com/">
       <div class="sponsor-logo">
         <img src="https://alces-flight.com/wp-content/uploads/2023/11/Alces-Flight-KG-Logo.png">
+      </div>
+       </a>
+
+     <a href="https://midasimmersion.com/">
+      <div class="sponsor-logo">
+        <img src="https://midasimmersion.com/wp-content/uploads/midas-logo-nw25.webp"/>
       </div>
        </a>
 
@@ -280,6 +286,14 @@ If you wish to remain beyond Thursday lunchtime, it will be necessary to move th
       <p style="margin-bottom: 1rem;">
         We are expecting over 150 attendees througout the week, though not all will stay for the entire week.
       </p>
+
+      <h2 style="font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem;">Talks and sessions</h2>
+      <p style="margin-bottom: 1rem;">
+e encourage engagement throughout the week, and you are very welcome to
+attend any of the talks or tutorials while you are here.  You are also
+encouraged to attend the Ceilidh on the Tuesday evening.
+      </p>
+
 
       <h2 style="font-size: 1.8rem; margin-top: 2rem; margin-bottom: 1rem;">Deliveries</h2>
       <p style="margin-bottom: 1rem;">

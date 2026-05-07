@@ -42,6 +42,12 @@ document.addEventListener("DOMContentLoaded", function () {
       color: "green"
     },
     {
+      name: "Mountjoy Centre: Main entrance",
+      lat: 54.76497,
+      lon: -1.570938,
+      color: "green"
+    },
+    {
       name: "Rowan House: RH007",
       lat: 54.7642,
       lon: -1.5725,
