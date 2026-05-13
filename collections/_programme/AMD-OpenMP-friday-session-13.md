@@ -65,7 +65,7 @@ speaker_links:
 
 # INSTITUTION
 # Comma-separated list of institutions
-institution: "AMD HPC and Sovereign AI Customer Enablement"
+institution: "AMD"
 # Institution logo
 institution_logo: ""
 # Institution website link
