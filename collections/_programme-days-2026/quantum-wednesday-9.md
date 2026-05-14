@@ -11,6 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Quantum HPC"
+hybrid: "https://events.teams.microsoft.com/event/a0a0dacb-ae88-4857-9128-3c6c7aad6e2a@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #FACILITATOR

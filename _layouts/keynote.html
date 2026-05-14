@@ -37,6 +37,16 @@ layout: default
   </div>
 </section>
 
+      {% if page.hybrid %}
+  <a href="{{ page.hybrid }}"
+     class="register-btn fade-in"
+     target="_blank"
+     rel="noopener">
+    Register to attend online
+  </a>
+{% endif %}
+
+
 
 
 
@@ -93,8 +103,16 @@ layout: default
 
 </section>
 
+
+
+
+
 <!-- MAIN CONTENT -->
 <section class="session-content fade-in">
+
+
+
+
 
   {% if page.description and page.description != "TBC" %}
     <section>
@@ -269,6 +287,42 @@ linear-gradient(
   opacity: 1;
   transform: translateY(0);
 }
+
+
+.register-btn {
+  display: table;
+  margin: 1.5rem auto;
+
+  padding: 0.9rem 1.8rem;
+  background: #68246d;
+  color: #ffffff !important;
+
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+
+  border-radius: 20px;
+  transition: all 0.3s ease;
+
+  min-width: 500px;
+}
+
+.register-btn:hover {
+  transform: translateY(-2px);
+  background: #053855;
+  text-decoration: none;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 600px) {
+  .register-btn {
+    padding: 0.8rem 1.4rem;
+    font-size: 0.9rem;
+      min-width: 100px;
+    border-radius: 8px;
+  }
+}
+
 
 /* MOBILE */
 @media (max-width: 600px) {

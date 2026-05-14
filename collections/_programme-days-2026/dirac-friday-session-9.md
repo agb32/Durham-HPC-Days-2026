@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Building Community"
-
+hybrid: "https://events.teams.microsoft.com/event/e0b1469d-3e39-45e0-aaf3-df2b61f1d247@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #FACILITATOR

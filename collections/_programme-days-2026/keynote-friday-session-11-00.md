@@ -1,6 +1,6 @@
 ---
 title: "TBD"
-
+hybrid: "https://events.teams.microsoft.com/event/4b1409db-915f-4185-8245-efbdf0b946b4@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 speaker: "Timo Betcke"
 speaker_photos:

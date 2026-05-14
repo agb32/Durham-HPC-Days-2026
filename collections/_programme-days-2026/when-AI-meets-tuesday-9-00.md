@@ -11,6 +11,8 @@
 
 # Full TITLE of the session/tutorial
 title: "Science & AI"
+hybrid: "https://events.teams.microsoft.com/event/f39ee0fc-f056-42a7-9dba-52cd2752c650@7250d88b-4b68-4529-be44-d59a2d8a6f94
+"
 # Description
 
 

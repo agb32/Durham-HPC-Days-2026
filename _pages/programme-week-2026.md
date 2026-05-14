@@ -167,12 +167,22 @@ classes: [full-programme]
       </div>
     {% endif %}
     
-      {% if s.speaker %}
+      {% if s.speaker and s.category == "keynote" %}
       <div class="meta-line speaker">
         <span class="meta-label">Speaker:</span>
         <span class="meta-value">{{ s.speaker }}</span>
       </div>
     {% endif %}
+    
+{% if s.hybrid %}
+  <div class="hybrid">
+    <span class="hybrid-link">
+      🌐 Available online
+    </span>
+  </div>
+{% endif %}
+
+
 
  
 
@@ -292,6 +302,8 @@ font-size: 0.5rem;
   margin-top: 0.5rem;
 }
 
+
+
 .legend-link {
   
   display: flex;
@@ -312,6 +324,35 @@ font-size: 0.5rem;
   transform: translateY(-1px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
+
+.hybrid {
+  margin-top: 0.45rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hybrid-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+
+  padding: 0.3rem 0.65rem;
+
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  color: #2975c1;
+  background: rgba(41,117,193,0.08);
+
+  border: 1px solid rgba(41,117,193,0.18);
+  border-radius: 999px;
+
+  cursor: default;
+  user-select: none;
+}
+
+
 
 
 .week-header,

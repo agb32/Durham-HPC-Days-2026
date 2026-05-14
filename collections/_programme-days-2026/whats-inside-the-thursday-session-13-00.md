@@ -11,6 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "What's inside the black box? Compiler developments for HPC"
+hybrid: "https://events.teams.microsoft.com/event/ad66a51d-178e-47cf-8ca3-71f7dec521af@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #LEADS

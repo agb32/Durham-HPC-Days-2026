@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "RSE Leaders & Aspiring Leaders Meeting: Policy & Funding"
-
+hybrid: "https://events.teams.microsoft.com/event/1cb2ead7-6a0c-42f2-81b7-47d444b78001@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #LEADS

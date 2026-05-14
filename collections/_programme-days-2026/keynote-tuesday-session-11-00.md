@@ -1,6 +1,6 @@
 ---
 title: "Why are High Performance Computing Systems still based on 1980’s Architectures?"
-
+hybrid: "https://events.teams.microsoft.com/event/fd1f5288-9312-4197-8a92-80245ff07a6a@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 speaker: "John McCalpin"
 speaker_photos:

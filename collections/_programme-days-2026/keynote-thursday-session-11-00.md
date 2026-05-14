@@ -1,6 +1,6 @@
 ---
 title: "Keynote"
-
+hybrid: "https://events.teams.microsoft.com/event/02301006-7804-4933-ace7-cf721821e30e@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 speaker: "Albert Reuther"
 speaker_photos:

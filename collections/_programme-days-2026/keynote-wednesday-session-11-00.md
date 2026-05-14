@@ -1,6 +1,6 @@
 ---
 title: "What Works? Academic-Industry Collaborations Across Borders - US vs EU models"
-
+hybrid: "https://events.teams.microsoft.com/event/d1bf1fca-48f8-4d5e-8a55-f8c5bfc7331f@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 speaker: "Melyssa Fratkin"
 speaker_photos:

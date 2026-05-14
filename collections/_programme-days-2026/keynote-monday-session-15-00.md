@@ -1,6 +1,6 @@
 ---
 title: "Keynote"
-
+hybrid: "https://events.teams.microsoft.com/event/a82b5caa-e35b-4643-abfd-d207a6e0c296@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 speaker: "Sven-Bodo Scholz"
 speaker_photos:

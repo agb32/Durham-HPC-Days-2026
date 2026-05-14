@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Fortran Community Meetup"
-
+hybrid: "https://events.teams.microsoft.com/event/e96f9224-aea3-4528-89ca-24b3f590ec52@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #LEADS

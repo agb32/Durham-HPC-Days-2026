@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "RIE's and RSE working together towards user friendly, sustainable HPC"
-
+hybrid: "https://events.teams.microsoft.com/event/c1522faa-4db2-42a6-9976-8ee1914ba561@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #LEAD

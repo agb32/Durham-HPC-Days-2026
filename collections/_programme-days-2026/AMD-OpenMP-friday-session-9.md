@@ -1,6 +1,6 @@
 ---
 # ============================================================
-# TALKS
+# TUTORIAL
 # Please complete all required fields before submitting a PR.
 # ============================================================
 
@@ -14,29 +14,15 @@ title: "Accelerating Scientific Applications with OpenMP for GPUs"
 
 
 
-#FACILITATOR
-# Comma-separated list of the leads of the session
-facilitator: "Johanna Potyka, Giacomo Capodaglio"
-# Leads photos (must match order of names above). 
-facilitator_photos:
+#INSTRUCTOR
+# Comma-separated list of INSTRUCTORS
+instructor: "Johanna Potyka, Giacomo Capodaglio"
+# INSTRUCTORS photos (must match order of names above). 
+instructor_photos:
   - ""
-# Leads profile links (must match order of names above)
-facilitator_links:
+# Instructor profile links (must match order of names above)
+instructor_links:
   - ""
-
-
-#SPEAKERS
-# Comma-separated list of the speakers of the session
-speaker: ""
-# Speakers photos (must match order of names above). 
-speaker_photos:
- - ""
-# Speakers profile links (must match order of names above)
-speaker_links:
-  - ""
-
-
-
 
 # -------------------------
 
@@ -111,8 +97,8 @@ requirements: ""
 
 
 
-layout: talk
-category: "talk"
+layout: tutorial
+category: "Tutorial"
 
 
 day: "Friday"

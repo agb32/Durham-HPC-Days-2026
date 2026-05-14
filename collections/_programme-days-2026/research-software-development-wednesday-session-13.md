@@ -11,6 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Research software development funding calls"
+hybrid: "https://events.teams.microsoft.com/event/70c641cc-e1dc-4900-8662-51d096ff55d4@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 

@@ -11,6 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Computational Engineering"
+hybrid: "https://events.teams.microsoft.com/event/b1ca563c-f1ef-4ade-9917-3df53553d80d@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 

@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Past, present and future of HPC Services in the UK, and the people who make it work"
-
+hybrid: "https://events.teams.microsoft.com/event/2e309103-7247-43ef-a1e0-e26eac4ea6f2@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #FACILITATOR

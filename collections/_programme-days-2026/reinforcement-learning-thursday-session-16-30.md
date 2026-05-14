@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Reinforcement Learning for Scientific and Computational Decision Making"
-
+hybrid: "https://events.teams.microsoft.com/event/aa785154-e67f-4d79-a057-98fbd29f29a3@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 #LEADS
 # Comma-separated list of the leads of the session

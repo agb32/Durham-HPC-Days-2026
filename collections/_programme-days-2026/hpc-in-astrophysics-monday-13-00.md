@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "HPC in Astrophysics and Astronomy"
-
+hybrid: "https://events.teams.microsoft.com/event/263ba741-bdbf-4fa5-a325-1a3afac81a32@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #FACILITATOR
