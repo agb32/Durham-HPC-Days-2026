@@ -18,6 +18,8 @@ speaker_photos:
 - "https://media.licdn.com/dms/image/v2/D4E0BAQERb5GeBVwP7g/company-logo_200_200/company-logo_200_200/0/1688369383296/novatech_logo?e=2147483647&v=beta&t=DlfqUR3v9c8B9qftCRLVBJ4nlTTSYiolK0OFNqu5Fw8"
 - "https://spectralogic.com/wp-content/uploads/SpectraLogo-2023.webp"
 - "https://upload.wikimedia.org/wikipedia/commons/3/36/VAST_Data_logo.svg"
+- "https://www.peakaio.com/images/logos/peakaio-logo-org.png"
+
 # Speakers profile links (must match order of names above)
 speaker_links:
   - "https://www.bios-it.co.uk/home.aspx"
@@ -27,6 +29,7 @@ speaker_links:
   - "https://www.novatech.co.uk/"
   - "https://spectralogic.com/"
   - "https://www.vastdata.com/"
+  - "https://www.peakaio.com/"
   
   
 
@@ -45,6 +48,7 @@ description: >
     <li>17:10 - Novatech</li>
     <li>17:20 - Spectra Logic</li>
     <li>17:30 - VAST</li>
+    <li>17:40 - PeakAIO</li>
   </ul>
 
   <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/sponsors/" class="btn btn-purple">
