@@ -1,5 +1,5 @@
 ---
-title: "Social"
+title: "Ceilidh Evening"
 day: "Tuesday"
 track: "A"
 start_time: "18:00"

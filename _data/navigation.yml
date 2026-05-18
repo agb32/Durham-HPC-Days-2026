@@ -1,10 +1,12 @@
 main:
-  - title: "Attendee Information"
-    url: /attendee-information/
-  - title: "Online Participation"
-    url: /online/
   - title: "Programme"
     url: /programme-week-2026/
+  - title: "Online Participation"
+    url: /online/
+  - title: "Attendee Information"
+    url: /attendee-information/
+  - title: "Socials"
+    url: /socials/
   - title: "Find your room"
     url: /rooms/
   - title: "Tutorials"
@@ -15,8 +17,6 @@ main:
     url: /talks/
   - title: "Poster Session"
     url: /posters/
-  - title: "Socials"
-    url: /socials/
   - title: "Sponsors"
     url: /sponsors/
   - title: "Past Durham HPC Days"
