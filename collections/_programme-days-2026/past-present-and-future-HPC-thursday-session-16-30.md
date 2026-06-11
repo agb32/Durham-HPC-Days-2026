@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Past, present and future of HPC Services in the UK, and the people who make it work"
-
+hybrid: "https://events.teams.microsoft.com/event/2e309103-7247-43ef-a1e0-e26eac4ea6f2@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #FACILITATOR
@@ -30,9 +30,13 @@ facilitator_links:
 
 #SPEAKERS
 # Comma-separated list of the speakers of the session
-speaker: ""
+speaker: "Deepak Aggarwal, Simon Burbidge, Simon Clifford, Jannetta Steyn, Marion Weinzierl"
 # Speakers photos (must match order of names above). 
 speaker_photos:
+ - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
+ - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
+ - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
+ - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
  - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/generic.jpg?raw=true"
 # Speakers profile links (must match order of names above)
 speaker_links:
@@ -105,6 +109,54 @@ supported_link: ""
 description: "This is a joint session organised by the HPC SIG and the HPC RSE SIG.
 <br><br>
 We will look back on how past technologies have shaped the sector and the dRTP roles, review current development and challenges, and think about where these developments - in particular the AI boom and recently appointed national supercomputers and resources - will lead the computational research community in the coming years.
+<br><br>
+
+<b>Agenda:</b>
+
+<table>
+  <tr>
+    <th>Slot</th>
+    <th>Topic</th>
+    <th>Speaker</th>
+  </tr>
+  <tr>
+    <td>16.30 - 16.40</td>
+    <td>Intro from HPC SIG and HPC RSE SIG </td>
+    <td>Deepak and Marion</td>
+  </tr>
+  <tr>
+    <td>16.40 - 17.00</td>
+    <td>History of HPC</td>
+    <td>Simon and Simon</td>
+  </tr>
+  <tr>
+    <td>17.00 - 17.15</td>
+    <td>HPC Carpentries</td>
+    <td>Jannetta Steyn</td>
+  </tr>
+  <tr>
+    <td>17.15 - 17.55</td>
+    <td>Panel discussion on the Future of HPC and HPC Services</td>
+    <td>Chair: Deepak</td>
+  </tr>  
+  <tr>
+    <td>17.55 - 18.00</td>
+    <td>Wrap-up</td>
+    <td>Marion</td>
+  </tr>  
+</table>
+
+<br><br>
+
+<b>Confirmed Panellists:</b>
+<ul>
+  <li>Andy Turner (EPCC)</li>
+  <li>Wojciech Turek (University of Cambridge)</li>
+  <li>Mark Wilkinson (DiRAC)</li>
+  <li>Silvia Ramos (UCL)</li>
+  <li>Luke Davis (UKRI)</li>
+</ul>
+
 "
    
 
@@ -133,7 +185,7 @@ end_time_1: "18:00"
 
 
 
-room: "Mountjoy Centre"
+room: "MCS2068"
 
 
 

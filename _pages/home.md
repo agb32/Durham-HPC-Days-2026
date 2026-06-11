@@ -3,7 +3,10 @@ layout: splash
 permalink: /
 hidden: true
 ---
-
+<div class="news-banner">
+  📢 Online participation for HPC Days 2026 is now open. You can now register to attend sessions online 
+  <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/online/">How to register →</a>
+</div>
 
 <section class="ws-hero ws-hero-banner full-bleed">
 </section>
@@ -22,14 +25,9 @@ hidden: true
     The <strong>Durham HPC Days</strong> bring together researchers, developers, and practitioners
     to explore the frontiers of high-performance computing, data analysis, and scientific innovation.
   </p>
-      <div class="register-meta">
-        📅 15–19 June 2026 &nbsp;&nbsp;•&nbsp;&nbsp; ⏳ Registration closes 20 April
-      </div>
 
-      <a href="https://pay.durham.ac.uk/event-durham/durham-hpc-days-2026" 
-         class="btn btn-primary">
-         Register now
-      </a>
+  <br> 
+     <br>
     </div>
     
 </div>
@@ -50,8 +48,26 @@ hidden: true
     Discover the full schedule of keynotes, technical sessions, and social events for the upcoming conference.
     Check the programme to plan your participation and make the most of your experience at Durham HPC Days.<br>
   </t><br>
-  <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-hpcdays-2026/" class="btn btn-purple">Full programme coming up soon</a>
+  <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-week-2026/" class="btn btn-purple">Check out the programme</a>
 </section>
+
+
+
+
+
+
+
+<section class="ws-hero ws-hero-sessions full-bleed">
+  <div class="ws-keynotes ws-hero__overlay"></div>
+  <div class="ws-keynotes-grid ws-hero__grid"></div>
+  <div class="ws-hero__content">
+    <h1>Keynotes</h1>
+    <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/keynotes/" class="ws-hero-cta">
+  Explore the keynotes <span>→</span>
+</a>
+  </div>
+</section>
+
 
 
 <section class="ws-hero ws-hero-sessions full-bleed">
@@ -66,22 +82,13 @@ hidden: true
 </section>
 
 
-<section class="ws-hero ws-hero-sessions full-bleed">
-  <div class="ws-keynotes ws-hero__overlay"></div>
-  <div class="ws-keynotes-grid ws-hero__grid"></div>
-  <div class="ws-hero__content">
-    <h1>Keynotes</h1>
-    <a href="/" class="ws-hero-cta">
-  Coming up soon <span>→</span>
-</a>
-  </div>
-</section>
+
 <section class="ws-hero ws-hero-sessions full-bleed">
   <div class="ws-talks ws-hero__overlay"></div>
   <div class="ws-talks-grid ws-hero__grid"></div>
   <div class="ws-hero__content">
-    <h1>Talks</h1> <a href="" class="ws-hero-cta">
-  Coming up soon <span>→</span>
+    <h1>Talks</h1>     <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/talks/" class="ws-hero-cta">
+  Explore talks <span>→</span>
 </a>
   </div>
 </section>
@@ -90,8 +97,8 @@ hidden: true
   <div class="ws-workshops-grid ws-hero__grid"></div>
   <div class="ws-hero__content">
     <h1>Workshops</h1>
-    <a href="/" class="ws-hero-cta">
-  Coming up soon <span>→</span>
+    <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/workshops/" class="ws-hero-cta">
+  Explore workshops <span>→</span>
 </a>
   </div>
 </section>
@@ -101,8 +108,8 @@ hidden: true
   <div class="ws-meetings-grid ws-hero__grid"></div>
   <div class="ws-hero__content">
     <h1>Meetings</h1>
-    <a href="/" class="ws-hero-cta">
-  Coming up soon <span>→</span>
+    <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/meetings/" class="ws-hero-cta">
+  Explore meetings <span>→</span>
 </a>
   </div>
 </section>
@@ -115,11 +122,83 @@ hidden: true
   <div class="ws-social-grid ws-hero__grid"></div>
   <div class="ws-hero__content">
     <h1>Socials</h1>
-    <a href="/" class="ws-hero-cta">
-  Coming up soon <span>→</span>
+    <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/socials/" class="ws-hero-cta">
+  Explore our socials <span>→</span>
 </a>
   </div>
 </section>
+
+
+<section id="programme" class="fade-in">
+  <h2>💬 Join the HPC Days Slack Channel</h2>
+
+   <t style="max-width: 700px; margin: 0 auto 2rem;">
+    Stay connected with other attendees, ask questions, and receive conference updates through our Slack channel.
+  
+
+ 
+    HPC Days uses the CAKE Slack workspace. If you are not already a member, please join the workspace first:
+ </t>
+   
+   <t style="max-width: 700px; margin: 0 auto 2rem;">
+    Once you have joined the workspace, search for and join the HPC Days conference channel:
+    <strong>#hpc-days26</strong>.
+  </t>
+
+
+  <a href="https://join.slack.com/t/cake-dri/shared_invite/zt-3dvw46q4g-eode0z4zTvpzoBv~fsQv~w/" class="btn btn-purple">Join the CAKE Slack workspace</a>
+
+</section>
+
+<section id="featured-sessions" class="fade-in">
+  <h2>🎤 Featured Sessions</h2>
+
+  <div class="carousel-wrapper">
+    <div class="carousel-track">
+
+{% assign allowed = "workshop,talk" | split: "," %}
+
+{% assign talks = site.programme-days-2026 
+  | sort: "start_time" 
+  | where_exp: "item", "allowed contains item.category" 
+%}
+  
+      
+      
+            {% for talk in talks %}
+<a href="{{ talk.url }}" class="session-card {{ talk.category | downcase }}">
+  <div class="about-card">
+
+    <div class="card-title">{{ talk.title }}</div>
+
+    <div class="card-details">
+
+      <div class="card-row">
+        <div class="card-text">
+          📅 {{ talk.day }} · {{ talk.start_time }}–{{ talk.end_time }}
+        </div>
+      </div>
+
+      {% if talk.room and talk.room != "TBC" %}
+      <div class="card-row">
+      <div class="card-text"> 📍 {{ talk.room }}</div>
+      </div>
+      {% endif %}
+
+    </div>
+
+
+
+  </div>
+</a>
+      {% endfor %}
+      
+
+    </div>
+  </div>
+</section>
+
+
 
 
 
@@ -211,11 +290,117 @@ hidden: true
       </div>
        </a>
        
+       
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiSpef17uKTAxX7UEEAHVxrAFAQFnoECCQQAQ&url=https%3A%2F%2Fwww.dell.com%2Fen-uk&usg=AOvVaw3-JlCQe6jSInbb9A7hdiSS&opi=89978449" target="_blank" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="https://aeseurope.com/wp-content/uploads/2021/05/dell-technologies-vertical_logo.png">
+      </div>
+       </a>
 
 
+              <a href="https://www.stackhpc.com/" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="https://avatars.githubusercontent.com/u/22750772?s=200&v=4">
+      </div>
+       </a>
+       
+                     <a href="https://spectralogic.com/">
+      <div class="sponsor-logo">
+        <img src="https://spectralogic.com/wp-content/uploads/SpectraLogo-2023.webp">
+      </div>
+       </a>
 
-      <!-- Add more as needed -->
+         <a href="https://www.peakaio.com/">
+      <div class="sponsor-logo">
+        <img src="https://www.peakaio.com/images/logos/peakaio-logo-org.png">
+      </div>
+       </a>
+       
+       
+        <a href="https://www.amd.com/en.html">
+      <div class="sponsor-logo">
+        <img src="https://media.licdn.com/dms/image/v2/D560BAQFCdxxVA_xhqQ/company-logo_200_200/B56ZnuIjafHUAM-/0/1760636844195/amd_logo?e=2147483647&v=beta&t=oM29UWcjmkCmT-aq0bZ_DEd-eqpPMQ-WR_FxQr-qHuM">
+      </div>
+       </a>
+       
+       
+               <a href="https://www.vastdata.com/">
+      <div class="sponsor-logo">
+        <img src="https://media.datacenterdynamics.com/media/images/vast-stacked-logo-hex-blue.original.png"/>
+      </div>
+       </a>
+       
+          <a href="https://www.cerio.ai/about/">
+      <div class="sponsor-logo">
+        <img src="https://media.licdn.com/dms/image/v2/D4E0BAQHXQBXfdTL5CQ/company-logo_200_200/company-logo_200_200/0/1696902111021/rockport_networks_inc__logo?e=2147483647&v=beta&t=FtlSAqR4iyzjknbR2_hDBhx7wRiP4_KOeXl6N2hMEeU">
+      </div>
+       </a>
+       
+                        <a href="https://www.beegfs.io/c/">
+      <div class="sponsor-logo">
+        <img src="https://www.advancedclustering.com/wp-content/uploads/2022/04/BeeGFS_big.png">
+      </div>
+       </a>
 
+                 <a href="https://www.bios-it.co.uk/home.aspx">
+      <div class="sponsor-logo">
+        <img src="assets/images/biositlogo.png">
+      </div>
+       </a>
+       
+                        <a href="https://www.computacenter.com/en-gb">
+      <div class="sponsor-logo">
+        <img src="assets/images/computacenterlogo.png"/>
+      </div>
+       </a>
+       
+     
+     <a href="https://alces-flight.com/">
+      <div class="sponsor-logo">
+        <img src="https://alces-flight.com/wp-content/uploads/2023/11/Alces-Flight-KG-Logo.png">
+      </div>
+       </a>
+
+     <a href="https://midasimmersion.com/">
+      <div class="sponsor-logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ600jBke7tEbherj_Qolde-FiHvrc6nuq-RA&s">
+      </div>
+       </a>
+
+      <a href="https://www.quantum.com" target="_blank" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="https://www.quantum.com/globalassets/redesign2021/quantum-logo-gradient.svg" alt="Quantum">
+      </div>
+      </a>
+
+      <a href="https://www.cornelis.com" target="_blank" rel="noopener noreferrer">
+      <div class="sponsor-logo">
+        <img src="assets/images/cornelislogo.png" alt="Cornelis">
+      </div>
+      </a>
+
+     <a href="https://durham.ac.uk/">
+      <div class="sponsor-logo">
+        <img src="https://durham.readthedocs.io/en/latest/_static/logo.png">
+      </div>
+       </a>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
     </div>
       
       
@@ -259,6 +444,32 @@ a:hover {
 }
 
 
+
+.news-banner {
+  background: linear-gradient(90deg, #572368, #940594);
+  color: white;
+  text-align: center;
+  padding: 12px 18px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 20;
+   width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 0rem !important;
+}
+
+.news-banner a {
+  color: white;
+  font-weight: 700;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.news-banner a:hover {
+  opacity: 0.85;
+}
 
 
   .ws-hero {
@@ -891,11 +1102,11 @@ t {
 
 
 .session-card.talk .about-card {
-  border-top-color: #0077cc;  
+  border-top-color: rgba(0, 90, 50, 0.95);  
 }
 
 .session-card.tutorial .about-card {
-  border-top-color: #00a86b;   
+  border-top-color:  rgba(120, 90, 0, 0.95);   
 }
 
 .session-card.keynote .about-card {
@@ -903,7 +1114,7 @@ t {
 }
 
 .session-card.workshop .about-card {
-  border-top-color: #e67e22;   
+  border-top-color: rgba(0, 42, 65, 0.92);  
 }
 
 .about-card:hover {
@@ -1091,7 +1302,11 @@ t {
     line-height: 1.6;
   }
 
-
+  #featured-sessions,
+  .carousel-wrapper,
+  .carousel-track {
+    display: none !important;
+  }
 .page__content,
 .page__inner-wrap,
 .wrapper,
@@ -1261,6 +1476,16 @@ t {
   .ws-hero {
     background-attachment: scroll;
   }
+  
+  .sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+
 }
 
 </style>
@@ -1365,6 +1590,114 @@ document.addEventListener("DOMContentLoaded", () => {
       current += speed;
       wrapper.scrollLeft = current;
 
+
+      if (current >= wrapper.scrollWidth / 2) {
+        current = 0;
+        wrapper.scrollLeft = 0;
+      }
+    }
+
+    requestAnimationFrame(autoScroll);
+  }
+
+  autoScroll(); 
+});
+</script>
+
+
+<script>
+(function() {
+  function onScroll() {
+    document.querySelectorAll('.fade-in').forEach(function(el) {
+      var rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) el.classList.add('visible');
+    });
+  }
+  document.addEventListener('scroll', onScroll);
+  document.addEventListener('DOMContentLoaded', onScroll);
+})();
+</script>
+
+<script>
+var YT_VIDEO_ID = 'wPjtwACmaUg';
+var player;
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('yt-player', {
+    width: '100%',
+    height: '100%',
+    videoId: YT_VIDEO_ID,
+    playerVars: {
+      autoplay: 1,
+      controls: 0,
+      modestbranding: 1,
+      rel: 0,
+      mute: 1,
+      playsinline: 1,
+      loop: 1,
+      playlist: YT_VIDEO_ID,
+      iv_load_policy: 3
+    },
+    events: {
+      onReady: function(e) {
+        try { e.target.mute(); e.target.playVideo(); } catch (err) {}
+      },
+      onStateChange: function(e) {
+        if (e.data === YT.PlayerState.ENDED) {
+          try { e.target.seekTo(0); e.target.playVideo(); } catch (err) {}
+        }
+      }
+    }
+  });
+}
+(function loadYT() {
+  if (window.YT && window.YT.Player) return onYouTubeIframeAPIReady();
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScript = document.getElementsByTagName('script')[0];
+  firstScript.parentNode.insertBefore(tag, firstScript);
+})();
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const wrapper = document.querySelector(".carousel-wrapper");
+  if (!wrapper) return;
+
+  let current = 0;
+  let speed = 0.25;  
+  let isPaused = false;
+  let isDragging = false;
+
+  wrapper.addEventListener("mouseenter", () => isPaused = true);
+  wrapper.addEventListener("mouseleave", () => isPaused = false);
+
+
+  let startX = 0;
+  let scrollStart = 0;
+
+  wrapper.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    startX = e.pageX;
+    scrollStart = wrapper.scrollLeft;
+    wrapper.style.cursor = "grabbing";
+  });
+
+  window.addEventListener("mouseup", () => {
+    isDragging = false;
+    wrapper.style.cursor = "grab";
+  });
+
+  wrapper.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+    const dx = e.pageX - startX;
+    wrapper.scrollLeft = scrollStart - dx;
+  });
+
+
+  function autoScroll() {
+    if (!isPaused && !isDragging) {
+      current += speed;
+      wrapper.scrollLeft = current;
 
       if (current >= wrapper.scrollWidth / 2) {
         current = 0;

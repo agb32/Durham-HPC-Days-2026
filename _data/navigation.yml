@@ -1,10 +1,20 @@
 main:
-  - title: "Register"
-    url: /register/
   - title: "Programme"
-    url: /programme-hpcdays-2026/
+    url: /programme-week-2026/
+  - title: "Online Participation"
+    url: /online/
+  - title: "Attendee Information"
+    url: /attendee-information/
+  - title: "Socials"
+    url: /socials/
+  - title: "Find your room"
+    url: /rooms/
   - title: "Tutorials"
     url: /tutorials/
+  - title: "Workshops"
+    url: /workshops/
+  - title: "Talks"
+    url: /talks/
   - title: "Poster Session"
     url: /posters/
   - title: "Sponsors"

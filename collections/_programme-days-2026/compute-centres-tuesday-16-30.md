@@ -11,6 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "HPC Centres"
+hybrid: "https://events.teams.microsoft.com/event/4185c647-3952-44dd-9bfa-29c573807ac2@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 
@@ -155,7 +156,7 @@ end_time_1: "18:00"
 
 
 
-room: "Mountjoy Centre"
+room: "MJC2004"
 
 
 

@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "We know what to do, so why aren’t we doing it? Closing the EDI Implementation Gap with lessons from EuroHPC, UKRI and Beyond"
-
+hybrid: "https://events.teams.microsoft.com/event/717c770b-ae28-4f73-9123-5e096c0c50bb@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #LEADS
@@ -30,7 +30,7 @@ lead_links:
 
 #CONTRIBUTORS
 # Comma-separated list of the contributors of the session
-contributor: "Luigi del Debbio, Bryan Jones"
+contributor: "Luigi del Debbio, Charlotte Bell"
 # Contributors' photos (must match order of names above). 
 contributor_photos:
   - "assets/images/generic.jpg"
@@ -139,7 +139,7 @@ end_time_1: "14:30"
 
 
 
-room: "Mountjoy Centre"
+room: "MCS0001"
 
 
 

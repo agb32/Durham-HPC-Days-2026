@@ -11,6 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "RSE Leaders & Aspiring Leaders Meeting: Policy & Funding"
+hybrid: "https://events.teams.microsoft.com/event/7abde1a0-f9fd-4ba7-9a26-827349f273fa@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 #LEADS
 # Comma-separated list of the leads of the session
@@ -140,7 +141,7 @@ day_3: "Monday"
 start_time_3: "16:30"
 end_time_3: "18:00"
 
-room: "Mountjoy Centre"
+room: "RH007"
 
 
 

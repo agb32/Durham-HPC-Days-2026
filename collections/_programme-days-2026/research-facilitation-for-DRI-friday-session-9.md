@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Research Facilitation for DRI communities"
-
+hybrid: "https://events.teams.microsoft.com/event/c9f3a672-0935-4aa8-97ae-5cf832967e40@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #LEAD
@@ -132,7 +132,7 @@ end_time_1: "10:30"
 
 
 
-room: "Mountjoy Centre"
+room: "MCS2068"
 
 
 

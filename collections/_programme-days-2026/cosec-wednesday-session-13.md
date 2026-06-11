@@ -11,7 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "CoSeC"
-
+hybrid: "https://events.teams.microsoft.com/event/ed1ff0b8-4a82-4a28-99f3-a39f87975e90@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #FACILITATOR
@@ -127,7 +127,7 @@ end_time_1: "14:30"
 
 
 
-room: "Mountjoy Centre"
+room: "MCS0001"
 
 
 

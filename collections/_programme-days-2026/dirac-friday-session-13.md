@@ -11,12 +11,12 @@
 
 # Full TITLE of the session/tutorial
 title: "Building Community"
-
+hybrid: "https://events.teams.microsoft.com/event/26756c10-ee11-42c9-b4a4-0bd664864638@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 #FACILITATOR
 # Comma-separated list of the leads of the session
-facilitator: "Simon Hands (Community Development Director DiRAC)"
+facilitator: "Simon Hands"
 # Leads photos (must match order of names above). 
 facilitator_photos:
   - "https://github.com/user-attachments/assets/3bfb9398-ee8f-4421-a492-2de1b817772d"
@@ -27,7 +27,7 @@ facilitator_links:
 
 #SPEAKERS
 # Comma-separated list of the speakers of the session
-speaker: "Luke Davis (UKRI), Luigi del Debbio (Edinburgh), Sarah Harris (Sheffield), Jonathan Hays (QMUL), Eugene Lim (KCL), Crispin Miller (Glasgow), Katherine Rooke (STFC), Matthieu Schaller (Leiden), Andrea Townsend-Nicholson (UCL), Mark Wilkinson (DiRAC), Scott Woodley (UCL)"
+speaker: "Luke Davis, Luigi del Debbio, Sarah Harris, Jonathan Hays, Eugene Lim, Crispin Miller, Karina Rodriguez Echavarria, Katherine Rooke, Matthieu Schaller, Andrea Townsend-Nicholson, Mark Wilkinson, Scott Woodley"
 # Speakers photos (must match order of names above). 
 speaker_photos:
  - ""
@@ -39,6 +39,7 @@ speaker_links:
   - "https://www.seresearch.qmul.ac.uk/ceap/people/jhays/"
   - "https://www.kcl.ac.uk/people/eugene-lim"
   - "https://www.crukscotlandinstitute.ac.uk/cruk-si-research/cruk-si-research-groups/crispin-miller-computational-biology.html"
+  - https://research.brighton.ac.uk/en/persons/karina-rodriguez-echavarria/
   - "https://www.linkedin.com/in/katherine-rooke-049b74a0/"
   - "https://home.strw.leidenuniv.nl/~schaller/"
   - "https://profiles.ucl.ac.uk/1732-andrea-townsendnicholson"
@@ -143,7 +144,7 @@ day_2: "Friday"
 start_time_2: "13:00"
 end_time_2: "15:00"
 
-room: "Mountjoy Centre"
+room: "MCS0001"
 
 
 

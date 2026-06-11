@@ -8,13 +8,23 @@ classes: [full-programme]
 {% assign sessions = site["programme-days-2026"] | default: empty %}
 {% assign sessions = sessions | sort: "start_time" %}
 {% assign tracks = "A,B,C" | split: "," %}
-{% assign days_order = "Monday,Tuesday,Wednesday,Thursday,Friday" | split: "," %}
+{% assign days_order = 
+  "Monday 15 June,Tuesday 16 June,Wednesday 17 June,Thursday 18 June,Friday 19 June" 
+  | split: "," %}
 
-<div class="programme-top-button">
-  <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-week/" class="button-link">
-    See Full Week Programme
-  </a>
-</div>
+
+
+<script>
+(function () {
+
+  const isPhone = window.matchMedia("(max-width: 768px)").matches;
+
+  if (!isPhone) {
+    window.location.replace("/programme-week-2026/");
+  }
+
+})();
+</script>
 
 <div class="programme-container">
 
@@ -23,11 +33,10 @@ classes: [full-programme]
     <ul class="accordion">
       {% for current_day in days_order %}
 
-        {% assign day_sessions = sessions | where: "day", current_day %}
-        {%- comment -%}
-          If you want fixed events to appear across *all* days, remove the where filter below.
-        {%- endcomment -%}
-        {% assign fixed_events = site.data.fixed_events | where: "day", current_day %}
+      {% assign day_name = current_day | split: " " | first %}
+
+{% assign day_sessions = sessions | where: "day", day_name %}
+{% assign fixed_events = site.data.fixed_events | where: "day", day_name %}
         {% assign combined = day_sessions | concat: fixed_events %}
         {% assign day_sessions = combined | sort: "start_time" %}
 
@@ -54,9 +63,10 @@ classes: [full-programme]
   <!-- Main content -->
   <main class="programme-main">
   {% for current_day in days_order %}
-    {% assign day_sessions = sessions | where: "day", current_day %}
+{% assign day_name = current_day | split: " " | first %}
 
-    {% assign fixed_events = site.data.fixed_events | where: "day", current_day %}
+{% assign day_sessions = sessions | where: "day", day_name %}
+{% assign fixed_events = site.data.fixed_events | where: "day", day_name %}
     {% assign combined = day_sessions | concat: fixed_events %}
     {% assign day_sessions = combined | sort: "start_time" %}
 
@@ -106,6 +116,9 @@ classes: [full-programme]
           <div class="session-card {{ category_class }}"
                id="{{ this_session.id | default: this_session.title | slugify }}"
                {% if this_session.part_of %}data-part="{{ this_session.part_of }}"{% endif %}>
+          
+          
+          
           {% if this_session.room %}
   <p class="room">Room: {{ this_session.room }}</p>
 {% endif %}
@@ -146,6 +159,17 @@ classes: [full-programme]
 
   </p>
 {% endif %}
+
+
+{% if this_session.hybrid %}
+  <div class="hybrid">
+    <span class="hybrid-link">
+      🌐 Available online
+    </span>
+  </div>
+{% endif %}
+
+
 
 
 
@@ -210,6 +234,7 @@ classes: [full-programme]
 .session-card .room {
   font-size: 1rem;
   opacity: 0.8;
+    font-weight: 600;
 }
 
 .button-link:hover,
@@ -340,7 +365,7 @@ classes: [full-programme]
 }
 
 .session-card h3 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: #002A41;
   margin-bottom: 0rem;
    margin-top: 0rem;
@@ -391,7 +416,7 @@ font-size: 0.6rem;
 }
 
 .session-card.full-width h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #002A41;
   margin-bottom: 0rem;
    margin-top: 0.1rem;
@@ -425,6 +450,36 @@ font-size: 0.6rem;
   color: #aaa;
   margin-top: 1.5rem;
 }
+
+
+.hybrid {
+  margin-top: 0.45rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hybrid-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+
+  padding: 0.3rem 0.65rem;
+
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  color: #2975c1;
+  background: rgba(41,117,193,0.08);
+
+  border: 1px solid rgba(41,117,193,0.18);
+  border-radius: 999px;
+
+  cursor: default;
+  user-select: none;
+}
+
+
 
 /* Responsive */
 @media (max-width: 900px) {
@@ -852,6 +907,21 @@ padding: 0.5rem;
   border-left: 4px solid transparent; 
 }
 
+@media (max-width: 768px) {
+
+  .day-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem !important;
+    background: #f4f6f8;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    margin: 0 0 1rem 0; 
+    padding: 0.5rem 3%;  
+  }
+}
 
 </style>
 
@@ -866,6 +936,9 @@ document.querySelectorAll('.accordion-header').forEach(header => {
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+
+
+
 
   function initAccordion() {
     document.querySelectorAll('.day-toggle').forEach(header => {

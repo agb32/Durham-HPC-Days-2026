@@ -11,6 +11,7 @@
 
 # Full TITLE of the session/tutorial
 title: "Knowledge Exchange in the DRI Community"
+hybrid: "https://events.teams.microsoft.com/event/91f5eaaa-9d94-434e-94be-b26b70f1add4@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 
 
@@ -131,7 +132,7 @@ end_time_1: "10:30"
 
 
 
-room: "Mountjoy Centre"
+room: "MCS0001"
 
 
 

@@ -12,7 +12,9 @@ classes: [full-programme]
 
 
 {% assign tracks = "A,B,C,D" | split: "," %}
-{% assign days_order = "Monday,Tuesday,Wednesday,Thursday,Friday" | split: "," %}
+{% assign days_order = 
+  "Monday 15 June,Tuesday 16 June,Wednesday 17 June,Thursday 18 June,Friday 19 June" 
+  | split: "," %}
 {% assign time_slots = all_sessions | map: "start_time" | uniq | sort %}
 
 {% assign fixed_sessions = 
@@ -29,13 +31,8 @@ classes: [full-programme]
 {% endfor %}
 
 {% assign time_slots = time_slots | sort %}
-<div class="mobile-programme-landing">
-  <div class="mobile-landing-inner">
-    <h1>Durham HPC Days 2026</h1>
-    <p class="subtitle">Conference Programme - Mobile Version</p>
-    <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-days/" class="btn-see-programme">See Full Programme</a>
-  </div>
-</div>
+
+
 <div class="programme-container">
 
 <main class="programme-main">
@@ -43,6 +40,12 @@ classes: [full-programme]
 
 <br> <br> 
 
+  <div class="legend-link-wrapper">
+  <a href="{{ '/rooms/' | relative_url }}" class="legend-link">
+    🗺️ Check where the rooms are on the map
+  </a>
+  </div>
+  
 <div class="programme-legend">
 
   <div class="legend-item keynote" data-category="keynote"><span class="legend-colour"></span> Keynotes</div>
@@ -52,6 +55,7 @@ classes: [full-programme]
   <div class="legend-item poster" data-category="poster"><span class="legend-colour"></span> Posters</div>
   <div class="legend-item social" data-category="social"><span class="legend-colour"></span> Socials</div>
   <div class="legend-item meeting" data-category="meeting"><span class="legend-colour"></span> Meetings</div>
+
 </div>
 
 <div class="week-grid">
@@ -59,9 +63,9 @@ classes: [full-programme]
   <!-- Header -->
   <div class="week-header">
     <div class="week-time-header">Time</div>
-    {% for day in days_order %}
-      <div class="week-day-header">{{ day }}</div>
-    {% endfor %}
+{% for day in days_order %}
+  <div class="week-day-header">{{ day }}</div>
+{% endfor %}
   </div>
 
   <!-- Rows by time -->
@@ -78,15 +82,20 @@ classes: [full-programme]
       {% endif %}
     {% endfor %}
 
-    {%- assign has_content = false -%}
-    {% for day in days_order %}
-      {% assign cell_sessions = all_sessions
-        | where: "day", day
-        | where: "start_time", time %}
-      {% if cell_sessions.size > 0 %}
-        {% assign has_content = true %}
-      {% endif %}
-    {% endfor %}
+{%- assign has_content = false -%}
+{% for day in days_order %}
+
+  {% assign day_name = day | split: " " | first %}
+
+  {% assign cell_sessions = all_sessions
+    | where: "day", day_name
+    | where: "start_time", time %}
+
+  {% if cell_sessions.size > 0 %}
+    {% assign has_content = true %}
+  {% endif %}
+
+{% endfor %}
 
     {% if has_content or is_fixed %}
 
@@ -105,51 +114,85 @@ classes: [full-programme]
 
       {% else %}
 
-        {% for day in days_order %}
-          {% assign cell_sessions = all_sessions
-            | where: "day", day
-            | where: "start_time", time %}
+{% for day in days_order %}
 
-          <div class="week-cell">
+  {% assign day_name = day | split: " " | first %}
+
+  {% assign cell_sessions = all_sessions
+    | where: "day", day_name
+    | where: "start_time", time %}
+
+  <div class="week-cell">
 {% if cell_sessions.size == 0 %}
   <div class="week-cell empty-cell"></div>
 {% else %}
-              {% assign cell_sessions = cell_sessions | sort: "track" %}
+      {% assign cell_sessions = cell_sessions | sort: "track" %}
 
-              {% for s in cell_sessions %}
-              <div class="session-card {{ s.category | downcase }}">
-                <h3>
-                  <a href="{{ s.url | relative_url }}">
-                    {{ s.title }}
-                  </a>
-                </h3>
+      {% for s in cell_sessions %}
+      <div class="session-card {{ s.category | downcase }}">
+    <div class="session-header">
+  <h3 class="session-title">
+    <a href="{{ s.url | relative_url }}">
+      {{ s.title }}
+    </a>
+  </h3>
 
-                {% if s.lead or s.instructor or s.facilitator %}
-                <p class="speaker">
+  {% if s.lead or s.instructor or s.facilitator or s.room %}
+  <div class="session-meta">
+  
+     {% if s.room %}
+      <div class="meta-line room">
+        <span class="meta-label">Room: {{ s.room }}</span>
+      </div>
+    {% endif %}
 
-                  {% if s.lead %}
-                    <strong>Lead{% if s.lead contains "," %}s{% endif %}:</strong>
-                    {{ s.lead }}
-                  {% endif %}
+   {% if s.lead %}
+      <div class="meta-line speaker">
+        <span class="meta-label">Lead:</span>
+        <span class="meta-value">{{ s.lead }}</span>
+      </div>
+    {% endif %}
 
-                  {% if s.lead and s.instructor %} · {% endif %}
+    {% if s.instructor %}
+      <div class="meta-line speaker">
+        <span class="meta-label">Instructor:</span>
+        <span class="meta-value">{{ s.instructor }}</span>
+      </div>
+    {% endif %}
 
-                  {% if s.instructor %}
-                    <strong>Instructor{% if s.instructor contains "," %}s{% endif %}:</strong>
-                    {{ s.instructor }}
-                  {% endif %}
+    {% if s.facilitator %}
+      <div class="meta-line speaker">
+        <span class="meta-label">Facilitator:</span>
+        <span class="meta-value">{{ s.facilitator }}</span>
+      </div>
+    {% endif %}
+    
+      {% if s.speaker and s.category == "keynote" %}
+      <div class="meta-line speaker">
+        <span class="meta-label">Speaker:</span>
+        <span class="meta-value">{{ s.speaker }}</span>
+      </div>
+    {% endif %}
+    
+{% if s.hybrid %}
+  <div class="hybrid">
+    <span class="hybrid-link">
+      🌐 Available online
+    </span>
+  </div>
+{% endif %}
 
-                  {% if s.facilitator %}
-                    <strong>Facilitator{% if s.facilitator contains "," %}s{% endif %}:</strong>
-                    {{ s.facilitator }}
-                  {% endif %}
 
-                </p>
-                {% endif %}
 
-                {% if s.room %}
-                  <p class="room">Room: {{ s.room }}</p>
-                {% endif %}
+ 
+
+  </div>
+  {% endif %}
+</div>
+                
+                
+                
+                
               </div>
               {% endfor %}
 
@@ -199,6 +242,118 @@ classes: [full-programme]
   display: grid;
   gap: 0.5rem;
 }
+
+
+.session-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.session-title {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.session-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.meta-line {
+  display: flex;
+  gap: 0.2rem;
+  align-items: baseline;
+  font-size: 0.6rem;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.meta-label {
+  font-weight: 600;
+  flex-shrink: 0; 
+}
+
+.meta-value {
+  color: #333;
+  margin: 0;
+}
+
+.room {
+  color: #5f6c7b; !important;
+}
+
+.speaker {
+font-style: italic; 
+font-size: 0.5rem;
+}
+
+.meta-line {
+  display: block;
+}
+
+.legend-link-wrapper {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+
+
+.legend-link {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 999px;
+  background: #002A41;
+  color: #fff !important;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+}
+
+.legend-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.hybrid {
+  margin-top: 0.45rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hybrid-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+
+  padding: 0.3rem 0.65rem;
+
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  color: #2975c1;
+  background: rgba(41,117,193,0.08);
+
+  border: 1px solid rgba(41,117,193,0.18);
+  border-radius: 999px;
+
+  cursor: default;
+  user-select: none;
+}
+
+
+
 
 .week-header,
 .week-row {
@@ -340,17 +495,7 @@ classes: [full-programme]
   flex-grow: 0;
 }
 
-.session-card .speaker {
-  font-size: 0.4rem;
-  color: #333;
-  margin: 0;
-}
 
-.session-card .room {
-  font-size: 0.6rem;
-  color: #444;
-  margin: 0;
-}
 
 .week-cell .session-card h3 a {
   color: inherit !important;
@@ -602,8 +747,15 @@ classes: [full-programme]
 </style>
 
 
+
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+
+  if (window.innerWidth <= 900) {
+    window.location.replace("https://hpc-days.github.io/Durham-HPC-Days-2026/programme-days/");
+    return;
+  }
 
   const legendItems = document.querySelectorAll(".legend-item");
   const sessions = document.querySelectorAll(".session-card");
