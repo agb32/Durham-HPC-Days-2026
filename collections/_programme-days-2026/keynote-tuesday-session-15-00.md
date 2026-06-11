@@ -3,7 +3,8 @@ title: "Earthquakes, Tsunamis, and Supercomputers: From Hero Runs to Digital Twi
 hybrid: "https://events.teams.microsoft.com/event/f14c45ea-90ca-4394-af21-bc7a6a291109@7250d88b-4b68-4529-be44-d59a2d8a6f94"
 
 speaker: "Alice-Agnes Gabriel"
-speaker_photos: "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/Alice.jpg?raw=true"
+speaker_photos:
+  - "https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/Alice.jpg?raw=true"
 speaker_links: "https://www.alicegabriel.com/"
 
 
