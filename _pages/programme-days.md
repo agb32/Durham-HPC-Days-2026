@@ -108,7 +108,6 @@ classes: [full-programme]
 
 
 
-
           {% if this_session.title contains "TBD" %}
             {% assign category_class = category_class | append: " tbd" %}
           {% endif %}
@@ -117,7 +116,16 @@ classes: [full-programme]
                id="{{ this_session.id | default: this_session.title | slugify }}"
                {% if this_session.part_of %}data-part="{{ this_session.part_of }}"{% endif %}>
           
-          
+{% if s.category %}
+  <span class="session-category category-{{ s.category | downcase }}">
+    {% if s.category == "talk" %}
+      Talks
+    {% elsif s.category == "Poster" %}
+    {% else %}
+      {{ s.category | capitalize }}
+    {% endif %}
+  </span>
+{% endif %}
           
           {% if this_session.room %}
   <p class="room">Room: {{ this_session.room }}</p>
@@ -194,6 +202,48 @@ classes: [full-programme]
      
      
 <style>
+
+
+
+.session-category {
+  margin-top: 0.1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  cursor: default;
+  user-select: none;
+}
+
+.category-talk {
+  color: #0d8157;
+}
+
+.category-workshop {
+  color: #184a7c;
+}
+
+.category-meeting {
+  color: #c85096;
+}
+
+.category-keynote {
+  color: #68246d;
+}
+
+.category-tutorial {
+  color: #947312;
+}
+
+.category-poster {
+  color: #dc3232;
+}
+
+
 
 .programme-top-button {
   width: 100%;           
@@ -805,7 +855,7 @@ padding: 0.5rem;
   }
 
   .programme-day.expanded .programme-grid {
-    max-height: 2000px;        
+      max-height: 10000px;      
   }
   .day-toggle {
     cursor: pointer;
@@ -839,7 +889,7 @@ padding: 0.5rem;
     transition: max-height 0.4s ease;
   }
   .programme-day.expanded .programme-grid {
-    max-height: 2000px;        
+    max-height: 10000px;        
   }
 }
 
